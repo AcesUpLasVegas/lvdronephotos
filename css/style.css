@@ -18,7 +18,7 @@ License URI: http://themeforest.net/licenses
 */
 
 
-/* Table of Content 
+/* Table of Content
 
 [Master Stylesheet]
 
@@ -28,7 +28,7 @@ Version:		1.0
 
 Author:			themelooper
 
-Primary use:	drone template 
+Primary use:	drone template
 
 [Color codes]
 
@@ -54,7 +54,7 @@ Sidebar heading:	font-family: 'Fjalla One', sans-serif;
 
 
 
-/** Table of Content 
+/** Table of Content
 
 - 	WRAPPER    	  					Line 		000  		-		000
 
@@ -88,11 +88,11 @@ Sidebar heading:	font-family: 'Fjalla One', sans-serif;
 
 -	Testimonial						Line		000			-		000
 
--	Services Detail					Line		000			-		000	
+-	Services Detail					Line		000			-		000
 
--	Sidebar							Line		000			-		000	
+-	Sidebar							Line		000			-		000
 
--	Blog Detail						Line		000			-		000		
+-	Blog Detail						Line		000			-		000
 
 End of Table of Conten*/
 
@@ -244,7 +244,7 @@ strong.logo {
 	float: right;
 	margin-bottom: 14px;
 
-	
+
 }
 /******* Navigation Mobile Effects ***********/
 .navbar-toggle .icon-bar:nth-of-type(2) {
@@ -423,7 +423,7 @@ strong.logo {
 	margin: 11px 0 0 0;
 	min-height: 0;
 	float: left;
-	
+
 }
 .navigation-section .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 	background: none;
@@ -536,7 +536,7 @@ strong.logo {
 	padding: 100px 0 70px 0;
 	background: url(../images/santa-teresa-top-down.jpg) no-repeat left top/cover;
 	image-rendering: -webkit-optimize-contrast;
-	
+
 }
 .welcome-section .heading-center span, .welcome-section .heading-center h2 {
 	color: #fff;
@@ -556,7 +556,7 @@ strong.logo {
 	margin-bottom: 30px;
 	overflow: hidden;
 	border-radius: 8px;
-	border: 1px solid #2d4059d5; 
+	border: 1px solid #2d4059d5;
 
 
 }
@@ -572,7 +572,7 @@ strong.logo {
 	float: left;
 	width: 100%;
 	position: relative;
-	
+
 }
 .welcome-section .welcome-box h3 {
 	float: left;
@@ -590,7 +590,7 @@ strong.logo {
 }
 .welcome-section .welcome-box b {
 	margin-right: 10px;
-	
+
 }
 .welcome-section .welcome-box b:before {
 	content: '';
@@ -612,7 +612,7 @@ strong.logo {
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	position: relative;
-	
+
 }
 .welcome-section .welcome-box b.icon-2 {
 	float: right;
@@ -681,7 +681,7 @@ strong.logo {
 .welcome-section .welcome-box:hover a.btn-more {
 	background-position: 95px 2px;
 	color: #2d4059;
-	
+
 }
 .welcome-section .welcome-box:hover p, .welcome-section .welcome-box:hover h3 a {
 	color: #2d4059;
@@ -694,7 +694,7 @@ strong.logo {
 }
 .welcome-section .welcome-box:hover:before {
 	width: 100%;
-	
+
 
 }
 .services {
@@ -870,7 +870,7 @@ strong.logo {
 .portfolio-box .frame img {
 	display: block;
 	width: 100%;
-	
+
 }
 .portfolio-section .container-fluid {
 	padding: 0;
@@ -1157,11 +1157,11 @@ strong.logo {
 	text-decoration:none;
 }
 .footer-box .recent-widget ul li:hover .text-col span{
-	color:#fff;
+	color:#ffd460;
 }
 .footer-box .recent-widget ul li .text-col span {
 	display: block;
-	color: #919191;
+	color: #ccc;
 	font: 400 14px/14px 'Montserrat', sans-serif;
 }
 .footer-gallery {
@@ -1526,6 +1526,8 @@ strong.logo {
 	float: left;
 	width: 100%;
 	padding: 100px 0;
+	background: #2d4059;
+	color: #ea5455  ;
 }
 .contact-section .holder {
 	float: left;
@@ -1544,6 +1546,7 @@ strong.logo {
 .contact-section .holder form h3 {
 	text-shadow: 0 5px 5px rgba(0,0,0,0.11);
 	margin: 0 0 25px 0;
+	color: #ea5455  ;
 }
 .contact-section .holder form input[type="text"] {
 	float: left;
@@ -1551,7 +1554,7 @@ strong.logo {
 	height: 45px;
 	padding: 0 20px;
 	border-radius: 4px;
-	background: #2d4059;
+	background: #fff;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -1580,9 +1583,10 @@ strong.logo {
 	float: left;
 	border-radius: 4px;
 	padding: 16px 80px;
-	color: #fff;
-	border: 0;
+	color: #fff  ;
+	border: 1px solid #ea5455  ;;
 	font: 400 16px 'Montserrat', sans-serif;
+	background: #ea5455  ;
 }
 .contact-section .holder form input::-webkit-input-placeholder {
  color:#777;
@@ -1619,7 +1623,7 @@ strong.logo {
 .contact-box {
 	float: left;
 	width: 100%;
-	background-image: url(../images/contact-bg.png);
+	background-image: url(../images/field.png);
 	background-repeat: no-repeat;
 	background-position: left top;
 	padding: 120px 30px 54px 30px;
@@ -1650,12 +1654,12 @@ strong.logo {
 	text-decoration: none;
 	display: block;
 	font: 300 14px/14px 'Montserrat', sans-serif;
-	color: #fff;
+	color: #000  ;
 	padding: 0 0 5px 0;
 }
 .contact-box ul li p {
 	font: 300 14px 'Montserrat', sans-serif;
-	color: #fff;
+	color: #000  ;
 	margin: 0 0 5px 0;
 }
 .contact-box ul li h4 {
@@ -1813,6 +1817,7 @@ strong.logo {
 	float: left;
 	width: 100%;
 	padding: 100px 0 60px 0;
+	background: #2d4059;
 }
 .services-detail .content-area {
 	float: left;
@@ -1837,6 +1842,7 @@ strong.logo {
 	width: 100%;
 }
 .services-detail .content-area .text-box h3 {
+	color: #ea5455  ;
 	margin: 0 0 15px 0;
 }
 .services-detail .content-area .text-box p {
@@ -1853,7 +1859,7 @@ strong.logo {
 .comment-box form label {
 	display: block;
 	font: 400 16px 'Montserrat', sans-serif;
-	color: #222;
+	color: #ffd460;
 	padding: 0 0 5px 0;
 }
 .comment-box form input[type="text"] {
@@ -1922,12 +1928,13 @@ strong.logo {
 	float: right;
 	border-radius: 5px;
 	padding: 16px 75px;
-	color: #fff;
+	color: #ea5455  ;
 	font: 400 16px 'Montserrat', sans-serif;
-	border: 0;
+	border: 1px solid #ea5455  ;
 }
 .comment-box form input[type="submit"]:hover{
-	background:#222;
+	background:#ea5455;
+	color: #fff;
 }
 /**************************************SERVICES DETAIL END**************************************/
 
@@ -1943,6 +1950,7 @@ strong.logo {
 }
 .sidebar-box h4 {
 	margin: 0 0 15px 0;
+	color: #ea5455;
 }
 .search-widget {
 	float: left;
@@ -1974,7 +1982,7 @@ strong.logo {
 	font-size: 16px;
 }
 .search-widget form button:hover{
-	color:#222;
+	color:#ea5455;
 }
 .text-widget {
 	float: left;
@@ -2016,7 +2024,7 @@ strong.logo {
 }
 .recent-widget ul li .text-col a {
 	display: block;
-	color: #222;
+	color: #fff;
 	text-decoration: none;
 	font: 400 12px/18px 'Montserrat', sans-serif;
 	padding: 0 0 10px 0;
@@ -2024,7 +2032,7 @@ strong.logo {
 .recent-widget ul li .text-col span.date {
 	display: block;
 	font: 400 12px/12px 'Montserrat', sans-serif;
-	color: #777;
+	color: #ffd460;
 }
 .recent-widget ul li .text-col span.date .fa {
 	padding: 0 6px 0 0;
@@ -2055,14 +2063,14 @@ strong.logo {
 	text-align: left;
 	font: 400 12px/12px 'Montserrat', sans-serif;
 	text-decoration: none;
-	color: #222;
+	color: #ffd460;
 }
 .archives-widget ul li a .fa {
 	padding: 0 8px 0 0;
 }
 .archives-widget ul li a span {
 	float: right;
-	color: #666;
+	color: #fff;
 }
 .instagram-widget {
 	float: left;
@@ -2107,14 +2115,14 @@ strong.logo {
 	width: 100%;
 	height: 39px;
 	border-radius: 4px;
-	border: 0;
+	border: 1px solid #ea5455  ;
 	padding: 0;
 	font: 400 16px 'Montserrat', sans-serif;
-	color: #fff;
+	color: #ea5455;
 }
 .newsletter-widget form input[type="submit"]:hover{
-	background:#fff;
-	color:#222;
+	background:#ea5455;
+	color:#fff;
 }
 /************************************SIDEBAR SECTION END************************************/
 
