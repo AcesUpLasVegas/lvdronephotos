@@ -2,8 +2,13 @@
 							/*1440px CSS*/
 /*===========================================================================*/
 @media (max-width: 1440px) {
+#inner-banner {
+	padding: 160px;
+	width: 100%;
+	height: auto;
+}
 #banner .caption {
-	top: 130px;
+	top: 70px;
 }
 .blog-section .holder{
 	width:100%;
@@ -27,6 +32,11 @@
 #banner .caption {
 	top: 120px;
 }
+#inner-banner {
+	padding: 160px;
+	width: 100%;
+	height: auto;	
+}
 .blog-section .holder {
 	width: 100%;
 	padding: 0 15px;
@@ -49,7 +59,12 @@
 /*===========================================================================*/
 @media (max-width: 1280px) {
 #banner .caption {
-	top: 100px;
+	padding: -50px;
+}
+#inner-banner {
+	padding: 160px;
+	width: 100%;
+	height: auto;
 }
 .blog-section .holder {
 	width: 100%;
@@ -85,7 +100,7 @@
 /*===========================================================================*/
 							/*767px CSS*/
 /*===========================================================================*/
-@media (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
 .topbar {
 	display: none;
 }
@@ -123,20 +138,34 @@ strong.logo {
 #nav-id li:last-child a {
 	padding: 15px 0;
 }
+#banner { padding-top: 80px;}
 #banner .caption {
-	top: 20px;
+	top: -30px;
 }
 #banner .caption .holder {
 	width: 100%;
 }
 #banner .caption h1 {
-	font-size: 42px;
-	line-height: 50px;
+	font-size: 38px;
+	line-height: 40px;
 }
 #banner .caption strong {
 	font-size: 28px;
 	line-height: 28px;
 }
+	
+#about-pic {
+	width: 35%;
+}	
+	.author-thumb { 
+		width: 25% !important;
+	}
+	.linear-light { 
+		padding-top: 20px;
+		font-size: 24px;
+	}
+	.post-author-box { margin-left: 10px;}
+	
 .home-about-section {
 	padding: 40px 0;
 }
@@ -197,7 +226,7 @@ strong.logo {
 	display: inline-block;
 }
 #inner-banner{
-	padding:50px 0;
+	padding:160px 0;
 	text-align:center;
 }
 #inner-banner h1{
@@ -292,10 +321,18 @@ body .padd-top-100.portfolio-section{
 /*===========================================================================*/
 							/*480px CSS*/
 /*===========================================================================*/
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 240px) and (max-width: 480px) {
 .topbar {
 	display: none;
 }
+.linear-title {
+	font-size: 24px;	
+}
+	
+#about-pic {
+	width: 25%;
+}	
+	
 body .padd-top-100.portfolio-section{
 	padding:40px 15px;
 }
@@ -320,6 +357,10 @@ body .padd-top-100.portfolio-section{
 .post-author-box .author-thumb{
 	margin:0 0 20px 0;
 }
+	
+	.author-thumb { width: 25% !important;}
+	.linear-light { font-size: 16px;}
+	
 .post-author-box .author-info{
 	float:left;
 	width:100%;
@@ -403,7 +444,7 @@ ul#comments li{
 	margin:0;
 }
 #inner-banner{
-	padding:60px 0;
+	padding: 160px 0;
 	text-align:center;
 }
 #inner-banner h1{
@@ -478,19 +519,20 @@ strong.logo {
 .navbar-collapse.in {
 	overflow: inherit;
 }
+#banner { top: 20px;}
 #banner .caption {
-	top: 10px;
+	top: -50px;
 }
 #banner .caption .holder {
 	width: 100%;
 }
 #banner .caption strong {
-	font-size: 12px;
-	line-height: 12px;
+	font-size: 16px;
+	line-height: 16px;
 	padding: 0 0 10px 0;
 }
 #banner .caption h1 {
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 25px;
 	margin: 0 0 8px 0;
 }
@@ -638,6 +680,11 @@ strong.logo {
 .contact-box{
 	padding:120px 10px 54px 10px;
 }
+	
+#about-pic {
+	width: 50%;
+}
+	
 .blog-section.blog-page{
 	padding:40px 0;
 }
@@ -674,11 +721,12 @@ strong.logo {
 	bottom: -12px;
 }
 #inner-banner{
-	padding:80px 0;
+	padding:150px 0;
 	text-align:center;
 }
 #inner-banner h1{
 	width:100%;
+	height: auto;
 	margin:0 0 15px 0;
 }
 #inner-banner .breadcrumb{
@@ -696,6 +744,11 @@ strong.logo {
 	text-align: center;
 	margin-bottom: 10px;
 }
+	
+.linear-wipe {
+	margin-left: 0px
+}	
+	
 .provide-section{
 	height:auto;
 	background-size:cover;
@@ -718,7 +771,7 @@ strong.logo {
 	top: 40px;
 }
 #banner .caption h1 {
-	font-size: 52px;
+	font-size: 48px;
 	line-height: 66px;
 }
 .home-about-section {
@@ -769,6 +822,7 @@ strong.logo {
 	margin-bottom: 20px;
 }
 .footer-section-3 strong.copyrights {
+	font-size: 12px !important;
 	line-height: 23px;
 }
 }
@@ -794,8 +848,14 @@ strong.logo {
 	margin: 15px 0 0 0;
 }
 #banner .caption {
+		font-size: 48px;
 	top: 60px;
 }
+	
+#about-pic {
+	width: 75%;
+}
+
 .home-about-section {
 	padding: 40px 0;
 }
@@ -867,7 +927,8 @@ strong.logo {
 	margin: 30px 0;
 }
 #inner-banner{
-	padding:100px 0;
+	padding:160px 0;
+	/*height: auto;*/
 }
 .provide-section{
 	margin-bottom:80px;
