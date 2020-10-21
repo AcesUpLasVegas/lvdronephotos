@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aces Up Drone Photography</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Aces Up Media</title>
+<link href="css/style-safe.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="css/color.css" rel="stylesheet" type="text/css">
@@ -15,210 +15,87 @@
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div id="wrapper"> 
-  <!--HEADER START-->
-  <header id="header">
-    <section class="topbar">
-      <div class="container">
-        <div class="left-box">
-          <ul>
-            <li><img src="images/map-icon.png" alt="img">Henderson, Nevada, USA</li>
-            <li><img src="images/envlope-icon.png" alt="img"><a href="mailto:acesuplasvegas@gmail.com">acesuplasvegas@gmail.com</a></li>
-            <li><img src="images/phone-icon.png" alt="img">(725) 465-0050</li>
-          </ul>
+<div id="wrapper">
+	
+<!--HEADER START-->
+<header id="header">
+  <section class="logo-row">
+	<div class="container"> <strong class="linear-wipe"><a href="index.html">Aces Up Media</a></strong>
+	  <div class="navigation-section">
+		<nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+			</button>
+          </div>
+             <div id="navbar" class="collapse navbar-collapse">
+               <ul class="navbar-nav" id="nav-id">
+                 <li><a href="index.html">Home</a></li>
+                 <li class="active"><a href="about.html">About</a></li>
+                 <li><a href="video.html">Recent&nbsp; Projects</a></li>
+                  <li><a href="services.html">Services</a></li>
+                 <li><a href="portfolio.html">Portfolio</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+               </ul>
+             </div>
+		  </nav>
         </div>
-        <div class="head-social">
-          <ul>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.instagram.com/acesupdrone"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCRFAGltc0nhdqjXxr9SS5mA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="logo-row">
-      <div class="container"> <strong class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></strong>
-        <div class="navigation-section">
-          <nav class="navbar navbar-inverse">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav" id="nav-id">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="about.html">About us</a></li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
-                  <ul class=" dropdown-menu" role="menu">
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="services-detail.html">Services Detail</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events Coverage <span class="caret"></span></a>
-                  <ul class=" dropdown-menu" role="menu">
-                    <li><a href="event.html">Events</a></li>
-                    <li><a href="event-detail.html">Events Detail</a></li>
-                  </ul>
-                </li>
-                <li><a href="equipment.html">Drone & Equipment</a></li>
-                <li><a href="video.html">Media</a></li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
-                  <ul class=" dropdown-menu" role="menu">
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="blog-detail.html">Blog Detail</a></li>
-                  </ul>
-                </li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </section>
-  </header>
-  <!--HEADER END--> 
-  
+	  </div>
+   </section>
+</header>
+
+<!-- Hidden Title Bar JavaScript-->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
+  } else {
+    document.getElementById("header").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+<!--HEADER END-->
+
   <!--INNER BANNER START-->
   <div id="inner-banner">
     <div class="container">
-      <h1>About us</h1>
-      <ol class="breadcrumb">
+	  <div >
+      <h1 class="linear-grad">About</h1>
+	  </div>
+    <!--  <ol class="breadcrumb">
         <li><a href="index.html">Home</a></li>
-        <li class="active">About us</li>
-      </ol>
+        <li class="active">Recent Projects</li>
+      </ol> -->
     </div>
   </div>
   <!--INNER BANNER END-->
-  
-  <div id="main"> 
-    <!--HOME ABOUT US SECTION START-->
-    <section class="home-about-section">
+
+  <div id="main">
+    <!--SERVICES SECTION START-->
+<section class="home-about-section">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <div class="text-box">
-              <div class="heading-left"> <span>Serving The Greater Las Vegas Area</span>
-                <h2>Aces Up Drone</h2>
+              <div class="heading-left"> <span> </span>
+                <h2 class="linear-title">Welcome To <br>Aces Up Media!</h2>
               </div>
-              <p>We provide quality aerial photo and video for your business or creative project. Our FAA Certified Drone Pilots are committed to a standard of excellence. Customer Service and Safety are top priorities for us. Working with a network of local photographers and videographers ensures that we can give you what you are looking for, and fast! </p>
-              <p>We specialize in Real Estate videos with quick turnaround time and competitive pricing. Also, consider hiring us for your Off-Road/Adventure photo shoot, Music Video, or Event! Hourly and daily rates available, will travel to remote locations upon request.</p>
-              <div class="welcome-icon-row"> <a href="#"><img src="images/welcome-icon-1.png" alt="img"></a> <a href="#"><img src="images/welcome-icon-2.png" alt="img"></a> <a href="#"><img src="images/welcome-icon-3.png" alt="img"></a> <a href="#"><img src="images/welcome-icon-4.png" alt="img"></a> </div>
-            </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,natus error sit voluptatem accusantium doloremque laudantium.</p>
+              <a href="about.html" class="btn-more">Get Pricing</a> </div>
           </div>
-          <div class="col-md-6 col-sm-6">
-            <div class="thumb"><span><img src="images/welcome-img.jpg" alt="img"></span></div>
+          <div class="col-md-6">
+            <div><span><img id="about-pic" src="images/pilot.jpg" alt="drone pilot"></span></div>
           </div>
         </div>
       </div>
     </section>
-    <!--HOME ABOUT US SECTION END--> 
-    
-    <!--PROVIDE SECTION START-->
-    <section class="provide-section">
-      <div class="container">
-        <div class="heading-center"> <span>We are Provide Best Services</span>
-          <h2>We Provide Best</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-4">
-            <div class="provide-box"> <img src="images/provide-img-1.jpg" alt="img">
-              <div class="caption">
-                <div class="holder">
-                  <h4><a href="services-detail.html">Proin suscipit urna quis .</a></h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quisquam est,</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="provide-box"> <img src="images/provide-img-2.jpg" alt="img">
-              <div class="caption">
-                <div class="holder">
-                  <h4><a href="services-detail.html">Proin suscipit urna quis .</a></h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quisquam est,</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="provide-box"> <img src="images/provide-img-3.jpg" alt="img">
-              <div class="caption">
-                <div class="holder">
-                  <h4><a href="services-detail.html">Proin suscipit urna quis .</a></h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quisquam est,</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--PROVIDE SECTION END--> 
-    
-    <!--TESTIMONIAL SECTION START-->
-    <section class="testimonial-section">
-      <div class="container">
-        <div class="heading-center"> <span>We are different from others</span>
-          <h2>Client Testimonial</h2>
-        </div>
-        <div class="owl-carousel" id="testimonial">
-          <div class="item">
-            <div class="testimonial-outer-box">
-              <div class="testimonial-box">
-                <div class="thumb"><img src="images/testi-img-1.jpg" alt="img"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ut enim ad minim veniam, quis nostrud exercitation.</p>
-              </div>
-              <strong class="name">Jhone Carry</strong> <span class="title">General Manager</span> </div>
-          </div>
-          <div class="item">
-            <div class="testimonial-outer-box">
-              <div class="testimonial-box">
-                <div class="thumb"><img src="images/testi-img-2.jpg" alt="img"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ut enim ad minim veniam, quis nostrud exercitation.</p>
-              </div>
-              <strong class="name">Jhone Carry</strong> <span class="title">General Manager</span> </div>
-          </div>
-          <div class="item">
-            <div class="testimonial-outer-box">
-              <div class="testimonial-box">
-                <div class="thumb"><img src="images/testi-img-3.jpg" alt="img"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ut enim ad minim veniam, quis nostrud exercitation.</p>
-              </div>
-              <strong class="name">Jhone Carry</strong> <span class="title">General Manager</span> </div>
-          </div>
-          <div class="item">
-            <div class="testimonial-outer-box">
-              <div class="testimonial-box">
-                <div class="thumb"><img src="images/testi-img-1.jpg" alt="img"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ut enim ad minim veniam, quis nostrud exercitation.</p>
-              </div>
-              <strong class="name">Jhone Carry</strong> <span class="title">General Manager</span> </div>
-          </div>
-          <div class="item">
-            <div class="testimonial-outer-box">
-              <div class="testimonial-box">
-                <div class="thumb"><img src="images/testi-img-2.jpg" alt="img"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ut enim ad minim veniam, quis nostrud exercitation.</p>
-              </div>
-              <strong class="name">Jhone Carry</strong> <span class="title">General Manager</span> </div>
-          </div>
-          <div class="item">
-            <div class="testimonial-outer-box">
-              <div class="testimonial-box">
-                <div class="thumb"><img src="images/testi-img-3.jpg" alt="img"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Ut enim ad minim veniam, quis nostrud exercitation.</p>
-              </div>
-              <strong class="name">Jhone Carry</strong> <span class="title">General Manager</span> </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--TESTIMONIAL SECTION END--> 
+    <!--SERVICES SECTION END-->
   </div>
-  
+
   <!--FOOTER START-->
   <footer id="footer">
     <section class="footer-section-1">
@@ -230,26 +107,24 @@
               <p>Lorem ipsum dolor sit amet, conec tetur adipisicing elit, sed do eiusd tempor incididunt ut labore dolore magna aliqua tempor.  sed do eiusd tempor incididunt.</p>
               <div class="footer-social">
                 <ul>
-                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                  <li><a href="https://www.instagram.com/acesupdrone"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                  <li><a href="https://www.youtube.com/channel/UCRFAGltc0nhdqjXxr9SS5mA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/acesupmedia"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCRFAGltc0nhdqjXxr9SS5mA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+			    <li><a href="https://www.pinterest.com/acesupdronevideo/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="footer-box">
-              <h4>Helpfull Links</h4>
+              <h4>Check Out These Links</h4>
               <div class="links-widget">
                 <ul>
-                  <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Posse denique per ex, tritani</a></li>
-                  <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Est id lorem nobis minimum.</a></li>
-                  <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Stet aperiam cum </a></li>
-                  <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Cu vix case sententiae deter</a></li>
-                  <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Quo at primis dis percipitur.</a></li>
+                  <li><a href="https://www.zillow.com/profile/acesuplasvegas/"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Zillow Certified Photographer Profile</a></li>
+                  <li><a href="https://www.pond5.com/artist/acesup#1/2063"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Stock drone footage sale on Pond5!</a></li>
+                  <li><a href="https://www.airvuz.com/user/aces-up/videos"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Video collection on AirVuz.com!</a></li>
+                  <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Mobile App and Web Design Available Here</a></li>
+                  <li><a href="https://fidacity.com/1672053-aces-up-drone-video"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Find us on Fidacity.com for local deals</a></li>
                 </ul>
               </div>
             </div>
@@ -291,7 +166,7 @@
     <section class="footer-section-2">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-5"> <strong class="title">Signup Newsletter</strong> <span>Stay up to date with our newsletter</span> </div>
+          <div class="col-md-3 col-sm-5"> <strong class="title">Newsletter Signup</strong> <span>Keep up with our latest projects and video releases!</span> </div>
           <div class="col-md-9 col-sm-7">
             <form action="#">
               <div class="row">
@@ -308,26 +183,25 @@
       </div>
     </section>
     <section class="footer-section-3">
-      <div class="container"> <strong class="copyrights">Drona &copy; 2018 / ALL RIGHTS RESERVED</strong>
+      <div class="container"> <strong class="copyrights">Aces Up &copy; 2020 / ALL RIGHTS RESERVED</strong>
         <div class="footer-menu">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">Recent Videos</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="video.html">Our Work</a></li>
-            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="video.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </div>
     </section>
   </footer>
-  <!--FOOTER END--> 
+  <!--FOOTER END-->
 </div>
-<script src="js/jquery.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/owl.carousel.min.js"></script> 
-<script src="js/jquery.prettyPhoto.js"></script> 
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
 <script src="js/custom.js"></script>
 </body>
 </html>

@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Drona HTML 5 Responsive Template</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Aces Up Media</title>
+<link href="css/style-safe.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="css/color.css" rel="stylesheet" type="text/css">
@@ -16,222 +16,102 @@
 </head>
 <body>
 <div id="wrapper">
-  <!--HEADER START-->
-    <header id="header">
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <section class="topbar">
-        <div class="container">
-          <div class="left-box">
-            <ul>
-              <li><img src="images/map-icon-red.png" alt="img">Las Vegas, NV, USA</li>
-              <li><img src="images/envlope-icon-red.png" alt="img"><a href="mailto:acesuplasvegas@gmail.com">acesuplasvegas@gmail.com</a></li>
-              <li><img src="images/phone-icon-red.png" alt="img">(725) 465-0050</li>
-            </ul>
+
+<!--HEADER START-->
+<header id="header">
+  <section class="logo-row">
+	<div class="container"> <strong class="linear-wipe"><a href="index.html">Aces Up Media</a></strong>
+	  <div class="navigation-section">
+		<nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+			</button>
           </div>
-          <div class="head-social">
-            <ul>
-              <li><a href="https://www.instagram.com/acesupmedia"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.youtube.com/channel/UCRFAGltc0nhdqjXxr9SS5mA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.pinterest.com/acesupdronevideo/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
+             <div id="navbar" class="collapse navbar-collapse">
+               <ul class="navbar-nav" id="nav-id">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li class="active"><a href="video.html">Recent&nbsp; Projects</a></li>
+                 <li><a href="services.html">Services</a></li>
+                 <li><a href="portfolio.html">Portfolio</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+               </ul>
+             </div>
+		  </nav>
         </div>
-      </section>
-    <section class="logo-row">
-      <div class="container"> <strong class="logo"><a href="index.html"></a></strong>
-        <div class="navigation-section">
-          <nav class="navbar navbar-inverse">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav" id="nav-id">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="video.html">Recent Videos</a></li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
-                  <ul class=" dropdown-menu" role="menu">
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="services-detail.html">Services Detail</a></li>
-                  </ul>
-                </li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </section>
-  </header>
-  <!--HEADER END-->
+	  </div>
+   </section>
+</header>
+
+<!-- Hidden Title Bar JavaScript-->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
+  } else {
+    document.getElementById("header").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+<!--HEADER END-->
 
   <!--INNER BANNER START-->
   <div id="inner-banner">
     <div class="container">
-      <h1>Video </h1>
-      <ol class="breadcrumb">
+	  <div >
+      <h1 class="linear-grad">Recent Projects</h1>
+	  </div>
+    <!--  <ol class="breadcrumb">
         <li><a href="index.html">Home</a></li>
-        <li class="active">Video </li>
-      </ol>
+        <li class="active">Recent Projects</li>
+      </ol> -->
     </div>
   </div>
   <!--INNER BANNER END-->
 
   <div id="main">
-    <!--VIDEO SECTION START-->
-    <section class="video-section">
+    <!--SERVICES DETAIL START-->
+    <section class="services-detail">
       <div class="container">
+		  
         <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="video-box"> <img src="images/video-img-1.jpg" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal"></a>
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                      <iframe src="https://www.youtube.com/embed/CWRMrbZKB6k"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="col-md-9 col-sm-8">
+            <div class="content-area">
+              <div class="frame"><img src="images/services-detail-img.jpg" alt="img"></div>
+              <div class="text-box">
+                <h3>Turnberry Towers</h3><br><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et lacus risus. Ut accumsan neque purus, in suscipit nulla tincidunt eu. Aliquam non eros felis. Sed vestibulum sapien vehicula risus semper convallis. Mauris ligula dolor, convallis eget egestas et, ornare sit amet leo. Praesent iaculis lacus quam, et euismod nibh egestas sed. Donec quis maximus mi. Sed nibh nisi, dignissim sit amet ante eu, imperdiet mattis mi. Ut ipsum ante, ornare ac mollis in, dictum ac turpis. Cras vitae volutpat sem.</p>
+                <p>consectetur adipiscing elit. Aenean et lacus risus. Ut accumsan neque purus, in suscipit nulla tincidunt eu. Aliquam non eros felis. Sed vestibulum sapien vehicula risus semper convallis. Mauris ligula dolor, convallis eget egestas et, ornare sit amet leo. Praesent iaculis lacus quam, et euismod nibh egestas sed. Donec quis maximus mi. Sed nibh nisi, dignissim sit amet ante eu, imperdiet mattis mi. Ut ipsum ante, ornare ac mollis in, dictum ac turpis. Cras vitae volutpat sem.</p>
+                
+</div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="video-box"> <img src="images/video-img-2.jpg" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal"></a>
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                      <iframe src="https://www.youtube.com/embed/CWRMrbZKB6k"></iframe>
-                    </div>
-                  </div>
+          <div class="col-md-3 col-sm-4">
+            <aside class="sidebar">
+              <div class="sidebar-box">
+
+                <div class="instagram-widget">
+                  <ul>
+                    <li><a href="#"><img src="images/sidebar-insta-img-1.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-2.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-3.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-4.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-5.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-6.jpg" alt="img"></a></li>
+                  </ul>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6">
-            <div class="video-box"> <img src="images/video-img-3.jpg" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal"></a>
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                      <iframe src="https://www.youtube.com/embed/CWRMrbZKB6k"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="video-box"> <img src="images/video-img-4.jpg" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal"></a>
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                      <iframe src="https://www.youtube.com/embed/CWRMrbZKB6k"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6">
-            <div class="video-box"> <img src="images/video-img-5.jpg" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal"></a>
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                      <iframe src="https://www.youtube.com/embed/CWRMrbZKB6k"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="video-box"> <img src="images/video-img-6.jpg" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal"></a>
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                      <iframe src="https://www.youtube.com/embed/CWRMrbZKB6k"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6">
-            <div class="video-box"> <img src="images/video-img-7.jpg" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal"></a>
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                      <iframe src="https://www.youtube.com/embed/CWRMrbZKB6k"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="video-box"> <img src="images/video-img-8.jpg" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal"></a>
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                      <iframe src="https://www.youtube.com/embed/CWRMrbZKB6k"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="video-box"> <img src="images/video-img-9.jpg" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal"></a>
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                      <iframe src="https://www.youtube.com/embed/CWRMrbZKB6k"></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              
+            </aside>
           </div>
         </div>
-        <div class="btn-row"><a href="#" class="btn-more">View More Video</a></div>
       </div>
     </section>
-    <!--VIDEO SECTION END-->
+    <!--SERVICES DETAIL END-->
   </div>
 
   <!--FOOTER START-->
@@ -262,7 +142,7 @@
                   <li><a href="https://www.pond5.com/artist/acesup#1/2063"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Stock drone footage sale on Pond5!</a></li>
                   <li><a href="https://www.airvuz.com/user/aces-up/videos"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Video collection on AirVuz.com!</a></li>
                   <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Mobile App and Web Design Available Here</a></li>
-                  <li><a href="https://fidacity.com/1672053-aces-up-drone-video"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Find us on Fidacity.com for local deals</a></li>
+                  <li></li>
                 </ul>
               </div>
             </div>
@@ -321,7 +201,7 @@
       </div>
     </section>
     <section class="footer-section-3">
-      <div class="container"> <strong class="copyrights">Aces Up &copy; 2020 / ALL RIGHTS RESERVED</strong>
+      <div class="container"> 
         <div class="footer-menu">
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -330,7 +210,7 @@
             <li><a href="video.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
-        </div>
+        </div> <strong class="copyrights">Aces Up Media &copy; 2020 all rights reserved </strong>
       </div>
     </section>
   </footer>

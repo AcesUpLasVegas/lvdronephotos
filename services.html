@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Drona HTML 5 Responsive Template</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Aces Up Media</title>
+<link href="css/style-safe.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="css/color.css" rel="stylesheet" type="text/css">
@@ -16,65 +16,59 @@
 </head>
 <body>
 <div id="wrapper">
-  <!--HEADER START-->
-    <header id="header">
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <section class="topbar">
-        <div class="container">
-          <div class="left-box">
-            <ul>
-              <li><img src="images/map-icon-red.png" alt="img">Las Vegas, NV, USA</li>
-              <li><img src="images/envlope-icon-red.png" alt="img"><a href="mailto:acesuplasvegas@gmail.com">acesuplasvegas@gmail.com</a></li>
-              <li><img src="images/phone-icon-red.png" alt="img">(725) 465-0050</li>
-            </ul>
-          </div>
-          <div class="head-social">
-            <ul>
-              <li><a href="https://www.instagram.com/acesupmedia"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.youtube.com/channel/UCRFAGltc0nhdqjXxr9SS5mA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.pinterest.com/acesupdronevideo/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    <section class="logo-row">
-      <div class="container"> <strong class="logo"><a href="index.html"></a></strong>
-        <div class="navigation-section">
-          <nav class="navbar navbar-inverse">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav" id="nav-id">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="video.html">Recent Videos</a></li>
-                <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
-                  <ul class=" dropdown-menu" role="menu">
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="services-detail.html">Services Detail</a></li>
-                  </ul>
-                </li>
 
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
+<!--HEADER START-->
+<header id="header">
+  <section class="logo-row">
+	<div class="container"> <strong class="linear-wipe"><a href="index.html">Aces Up Media</a></strong>
+	  <div class="navigation-section">
+		<nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+			</button>
+          </div>
+             <div id="navbar" class="collapse navbar-collapse">
+               <ul class="navbar-nav" id="nav-id">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="video.html">Recent&nbsp; Projects</a></li>
+                 <li class="active"><a href="services.html">Services</a></li>
+                 <li><a href="portfolio.html">Portfolio</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+               </ul>
+             </div>
+		  </nav>
         </div>
-      </div>
-    </section>
-  </header>
-  <!--HEADER END-->
+	  </div>
+   </section>
+</header>
+
+<!-- Hidden Title Bar JavaScript-->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
+  } else {
+    document.getElementById("header").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+<!--HEADER END-->
 
   <!--INNER BANNER START-->
   <div id="inner-banner">
     <div class="container">
-      <h1>Services</h1>
-      <ol class="breadcrumb">
+	  <div >
+      <h1 class="linear-grad">Services</h1>
+	  </div>
+    <!--  <ol class="breadcrumb">
         <li><a href="index.html">Home</a></li>
-        <li class="active">Services</li>
-      </ol>
+        <li class="active">Recent Projects</li>
+      </ol> -->
     </div>
   </div>
   <!--INNER BANNER END-->
@@ -82,131 +76,122 @@
   <div id="main">
     <!--SERVICES SECTION START-->
     <section class="welcome-section services">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">AERIAL <span>VIDEOGRAPHY</span></a></h3>
-                <b class="icon-1"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">AERIAL <span>PHOTOGRAPHY</span></a></h3>
-                <b class="icon-2"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">Sporting Events <span>Photos</span></a></h3>
-                <b class="icon-3"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">Marketing Photo <span>& Video</span></a></h3>
-                <b class="icon-4"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">Construction <span>Progress</span></a></h3>
-                <b class="icon-5"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">Photo & Video <span>for Weddings</span></a></h3>
-                <b class="icon-6"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">AERIAL <span>VIDEOGRAPHY</span></a></h3>
-                <b class="icon-1"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">AERIAL <span>PHOTOGRAPHY</span></a></h3>
-                <b class="icon-2"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">Sporting Events <span>Photos</span></a></h3>
-                <b class="icon-3"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">Marketing Photo <span>& Video</span></a></h3>
-                <b class="icon-4"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">Construction <span>Progress</span></a></h3>
-                <b class="icon-5"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services-detail.html">Photo & Video <span>for Weddings</span></a></h3>
-                <b class="icon-6"></b>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45</p>
-                <a href="services-detail.html" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-        </div>
-        <div class="pagination-box">
-          <nav aria-label="Page navigation">
-            <ul class="pagination">
-              <li> <a href="#" aria-label="Previous"> <span aria-hidden="true"><i class="fa fa-angle-left" aria-hidden="true"></i></span> </a> </li>
-              <li class="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li> <a href="#" aria-label="Next"> <span aria-hidden="true"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </a> </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+      <div class="post-author-box" >
+          <div id="real-estate-service"><img src="images/house-building_1f3e0.png" alt="img"  class="author-thumb"></div>
+             <div class="author-info">
+               <h6 class="linear-yellow">Real Estate Videos </h6>
+                				 
+				 <div class="instagram-widget">
+                  <ul>
+                    <li><a href="#"><img src="images/sidebar-insta-img-1.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-2.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-3.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-4.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-5.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-6.jpg" alt="img"></a></li>
+                  </ul>
+                </div>
+				 
+				  <p>Similique sunt in culpa qui officia.vero eos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos doloreseos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+				 				 
+                    <div class="social-share2">
+                      <ul>
+                        <li><a href="https://www.instagram.com/acesupmedia/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCRFAGltc0nhdqjXxr9SS5mA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.zillow.com/profile/acesuplasvegas/"><i class="fa fa-video-camera" aria-hidden="true"></i></a></li>
+
+                      </ul>
+                    </div>
+                  </div>
+		</div>
+		<div class="post-author-box">
+          <div id="aerial-photography-service"><img src="images/emoji-camera.png" alt="img" class="author-thumb"></div>
+             <div class="author-info">
+               <h6 class="linear-yellow">Aerial Photography </h6>
+				 
+				<div class="instagram-widget">
+                  <ul>
+                    <li><a href="#"><img src="images/sidebar-insta-img-1.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-2.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-3.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-4.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-5.jpg" alt="img"></a></li>
+                    <li><a href="#"><img src="images/sidebar-insta-img-6.jpg" alt="img"></a></li>
+                  </ul>
+                </div>
+				 
+                  <p>Similique sunt in culpa qui officia.vero eos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos doloreseos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                    <div class="social-share2">
+                      <ul>
+                        <li><a href="https://www.instagram.com/acesupmedia/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="portfolio.html"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+						 <li><a href="https://www.pond5.com/artist/acesup#1/2063"><i class="fa fa-download" aria-hidden="true"></i></a></li>
+
+                      </ul>
+                    </div>
+                  </div>
+		</div>
+		<div class="post-author-box">
+			<div id="stock-footage-service"><img src="images/emoji-movie-camera.png" alt="img" class="author-thumb"></div>
+             <div class="author-info">
+               <h6 class="linear-yellow">Stock Footage </h6>
+                  <p>Similique sunt in culpa qui officia.vero eos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos doloreseos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                    <div class="social-share2">
+                      <ul>
+                        <li><a href="https://www.pond5.com/artist/acesup#1/2063"><i class="fa fa-video-camera" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.pond5.com/artist/acesup#1/2063"><i class="fa fa-download" aria-hidden="true"></i></a></li>
+					  
+                      </ul>
+                    </div>
+                  </div>
+		</div>
+		
+		<div class="post-author-box">
+          <div id="video-editing-service"><img src="images/emoji-edit.png" alt="img" class="author-thumb"></div>
+             <div class="author-info">
+               <h6 class="linear-yellow">Video Editing </h6>
+                  <p>Similique sunt in culpa qui officia.vero eos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos doloreseos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                    <div class="social-share2">
+                      <ul>
+                        <li><a href="https://www.airvuz.com/user/aces-up/videos"><i class="fa fa-video-camera" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/acesupmedia/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCRFAGltc0nhdqjXxr9SS5mA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+		</div>
+		
+		<div class="post-author-box">
+          <div id="web-design-service"><img src="images/emoji-personal-computer.png" alt="img" class="author-thumb"></div>
+             <div class="author-info">
+               <h6 class="linear-yellow">Web Design </h6>
+                  <p>Similique sunt in culpa qui officia.vero eos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos doloreseos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                    <div class="social-share2">
+                      <ul>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.upwork.com/freelancers/~01069fed85636ede3d"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+		</div>
+		
+		<div class="post-author-box">
+          <div id="mobile-app-service"><img src="images/emoji-mobile-phone.png" alt="img" class="author-thumb"></div>
+             <div class="author-info">
+               <h6 class="linear-yellow">Mobile App Development </h6>
+                  <p>Similique sunt in culpa qui officia.vero eos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos doloreseos et accusamus et iusto odio dignissimos ducimuss qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                    <div class="social-share2">
+                      <ul>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/whalestacks/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+                      </ul>
+                    </div>
+                  </div>
+		</div>
     </section>
     <!--SERVICES SECTION END-->
   </div>
