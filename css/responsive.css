@@ -10,6 +10,14 @@
 #banner .caption {
 	top: 70px;
 }
+	
+#inner-banner {
+	padding: 160px;
+	width: 100%;
+	height: auto;
+	
+	
+}
 .blog-section .holder{
 	width:100%;
 	padding:0 15px;
@@ -104,6 +112,12 @@
 .topbar {
 	display: none;
 }
+#banner {
+	padding: 100px 0;
+
+}	
+
+	
 strong.logo {
 	width: 100%;
 	text-align: center;
@@ -138,7 +152,7 @@ strong.logo {
 #nav-id li:last-child a {
 	padding: 15px 0;
 }
-#banner { padding-top: 80px;}
+#banner { padding-top: 100px;}
 #banner .caption {
 	top: -30px;
 }
