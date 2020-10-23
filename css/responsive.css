@@ -164,7 +164,7 @@ strong.logo {
 		padding-top: 20px;
 		font-size: 24px;
 	}
-	.post-author-box { margin-left: 10px;}
+/*	.post-author-box { margin-left: 10px;}*/
 	
 .home-about-section {
 	padding: 40px 0;
@@ -354,9 +354,9 @@ body .padd-top-100.portfolio-section{
 	text-align:center;
 	margin:20px 0 0 0;
 }
-.post-author-box .author-thumb{
+/*.post-author-box .author-thumb{
 	margin:0 0 20px 0;
-}
+}*/
 	
 	.author-thumb { width: 25% !important;}
 	.linear-light { font-size: 16px;}
