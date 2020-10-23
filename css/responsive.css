@@ -7,14 +7,6 @@
 	width: 100%;
 	height: auto;
 }
-	
-#banner {
-	padding: 160px;
-	width: 100%;
-	height: auto;
-}	
-	
-	
 #banner .caption {
 	top: 70px;
 }
@@ -45,13 +37,6 @@
 	width: 100%;
 	height: auto;	
 }
-#banner {
-	padding: 160px;
-	width: 100%;
-	height: auto;
-}	
-	
-	
 .blog-section .holder {
 	width: 100%;
 	padding: 0 15px;
@@ -81,14 +66,6 @@
 	width: 100%;
 	height: auto;
 }
-	
-#banner {
-	padding: 160px;
-	width: 100%;
-	height: auto;
-}		
-	
-	
 .blog-section .holder {
 	width: 100%;
 	padding: 0 15px;
@@ -161,15 +138,7 @@ strong.logo {
 #nav-id li:last-child a {
 	padding: 15px 0;
 }
-/* #banner { padding-top: 80px;} */
-	
-#banner {
-	padding: 160px;
-	width: 100%;
-	height: auto;
-}		
-	
-	
+#banner { padding-top: 80px;}
 #banner .caption {
 	top: -30px;
 }
@@ -483,20 +452,6 @@ ul#comments li{
 	font-size:42px;
 	margin:0 0 15px 0;
 }
-	
-#banner {
-	padding: 160px;
-
-}
-#banner h1{
-	width:100%;
-	font-size:42px;
-	margin:0 0 15px 0;
-}
-	
-	
-	
-	
 #inner-banner .breadcrumb{
 	width:100%;
 }
@@ -774,18 +729,6 @@ strong.logo {
 	height: auto;
 	margin:0 0 15px 0;
 }
-	
-#banner{
-	padding:150px 0;
-	text-align:center;
-}
-#banner h1{
-	width:100%;
-	height: auto;
-	margin:0 0 15px 0;
-}
-	
-	
 #inner-banner .breadcrumb{
 	width:100%;
 }
@@ -824,12 +767,12 @@ strong.logo {
 #nav-id li ul {
 	top: 25px;
 }
-/*#banner .caption {
+#banner .caption {
 	top: 40px;
 }
 #banner .caption h1 {
 	font-size: 48px;
-	line-height: 66px;*/
+	line-height: 66px;
 }
 .home-about-section {
 	padding: 50px 0;
@@ -904,20 +847,11 @@ strong.logo {
 .navigation-section .navbar {
 	margin: 15px 0 0 0;
 }
-/*#banner .caption {
+#banner .caption {
 		font-size: 48px;
 	top: 60px;
-}*/
-#banner{
-	padding:150px 0;
-	text-align:center;
 }
-#banner h1{
-	width:100%;
-	height: auto;
-	margin:0 0 15px 0;
-}
-
+	
 #about-pic {
 	width: 75%;
 }
