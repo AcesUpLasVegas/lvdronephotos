@@ -202,7 +202,7 @@ body h6 {
 	margin: 0;
 }
 body p {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	color: #dae1e7;
 	margin: 0 0 20px 0;
@@ -229,6 +229,7 @@ body p {
 	float: left;
 	width: 100%;
 	position: relative;
+	background-color: #1a1421;
 }
 .btn-row {
 	display: block;
@@ -339,7 +340,7 @@ body .padd-top-100 {
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  
 }
 
 
@@ -376,6 +377,7 @@ body .padd-top-100 {
   -webkit-text-fill-color: transparent; */
 
 } 
+#nutrag { color: #ffd460; }
  .linear-yellow {
   text-align: left;
   font-family: 'Fira Code', monospace;
@@ -389,7 +391,6 @@ body .padd-top-100 {
   -webkit-text-fill-color: transparent; */
 
 } 
-
 
 
 .navigation-section {
@@ -455,7 +456,7 @@ body .padd-top-100 {
 	bottom: -20px;
 	width: 100%;
 	height: 4px;
-	background: linear-gradient(to right, #d654ea 0%, #ea5455 20%,  #ead654 100%);
+	background: linear-gradient(to right, #d654ea 0%, #ea5455 50%,  #ead654 100%);
 
 	
 }
@@ -702,17 +703,16 @@ body .padd-top-100 {
 	float: left;
 	width: 100%;
 	padding: 100px 0 70px 0;
-	background: url(../images/santa-teresa-top-down-45.png) no-repeat left top/cover;
+	background: url("../images/santa-teresa-top-down-45.png") no-repeat left top/cover;
 	image-rendering: -webkit-optimize-contrast;
 	
 }
 .welcome-section .heading-center span, .welcome-section .heading-center h2 {
-	color: #ea5455;
 	text-shadow: 0 0 5px rgba(0,0,0,0.1); 
 
 }
 .welcome-section .welcome-box {
-	float: left;
+	float: left; 
 	width: 100%;
 	/* main box bg color */
 	background: #25252Bd3;
@@ -724,6 +724,7 @@ body .padd-top-100 {
 	margin-bottom: 30px;
 	overflow: hidden;
 	border-radius: 24px;
+	text-decoration: none;
 	/*border: 2px solid #25252Bd5; */
 
 }
@@ -734,11 +735,14 @@ body .padd-top-100 {
 	top: 0;
 	width: 0;
 	height: 100%;
+	text-decoration: none;
 }
 .welcome-section .welcome-box .holder {
 	float: left;
 	width: 100%;
 	position: relative;
+	text-decoration: none;
+	
 	
 }
 .welcome-section .welcome-box h3 {
@@ -768,76 +772,87 @@ body .padd-top-100 {
 	top: 0;
 	bottom: 0;
 	margin: auto;
+	background: linear-gradient(45deg, #d654ea 0%, #ea5455 50%,  #ead654 100%);
 }
 .welcome-section .welcome-box b.icon-1 {
 	float: right;
 	width: 70px;
 	height: 66px;
 	border-radius: 16px;
-		background-color: transparent !important;
-
+	background-color: transparent !important;
 	/* border: 2px solid #d6d6d6; */
 	background-image: url("../images/emoji-house-slide.png");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	position: relative;
-		/*opacity: 0.9;*/
-			background-position: 0 -66px; 
+	opacity: 0.9;
+	background-position: 0 -66px; 
+	-ms-transform: scale(0.9); /* IE 9 */
+	-webkit-transform: scale(0.9); /* Safari 3-8 */
+	transform: scale(0.9);
 }
 .welcome-section .welcome-box b.icon-2 {
 	float: right;
 	width: 70px;
 	height: 66px;
 	border-radius: 16px;
-		background-color: transparent !important;
-
-	background-image: url(../images/emoji-camera-slide.png);
+	background-color: transparent !important;
+	background-image: url("../images/emoji-camera-slide.png");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	position: relative;
-		/*opacity: 0.9;*/
-			background-position: 0 -66px; 
+	opacity: 0.9;
+	background-position: 0 -66px;
+	-ms-transform: scale(0.9); /* IE 9 */
+	-webkit-transform: scale(0.9); /* Safari 3-8 */
+	transform: scale(0.9);
 }
 .welcome-section .welcome-box b.icon-3 {
 	float: right;
 	width: 70px;
 	height: 66px;
 	border-radius: 16px;
-		background-color: transparent !important;
-
+	background-color: transparent !important;
 	background-image: url("../images/emoji-movie-camera-slide.png");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	position: relative;
-		/*opacity: 0.9;*/
-			background-position: 0 -66px; 
+	opacity: 0.9;
+	background-position: 0 -66px;
+	-ms-transform: scale(0.9); /* IE 9 */
+	-webkit-transform: scale(0.9); /* Safari 3-8 */
+	transform: scale(0.9);
 }
 .welcome-section .welcome-box b.icon-4 {
 	float: right;
 	width: 70px;
 	height: 66px;
 	border-radius: 16px;
-		background-color: transparent !important;
-
-	background-image: url(../images/emoji-edit-slide.png);
+	background-color: transparent !important;
+	background-image: url("../images/emoji-edit-slide.png");
 	background-repeat: no-repeat;
 	position: relative;
-		/*opacity: 0.9;*/
-			background-position: 0 -66px; 
+	opacity: 0.9;
+	background-position: 0 -66px;
+	-ms-transform: scale(0.9); /* IE 9 */
+	-webkit-transform: scale(0.9); /* Safari 3-8 */
+	transform: scale(0.9);
 }
 .welcome-section .welcome-box b.icon-5 {
 	float: right;
 	width: 70px;
 	height: 66px;
 	border-radius: 16px;
-		background-color: transparent !important;
-
+	background-color: transparent !important;
 	background-image: url("../images/emoji-personal-computer-slide.png");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	position: relative;
-		/*opacity: 0.9;*/
-			background-position: 0 -66px; 
+	opacity: 0.9;
+	background-position: 0 -66px;
+	-ms-transform: scale(0.9); /* IE 9 */
+	-webkit-transform: scale(0.9); /* Safari 3-8 */
+	transform: scale(0.9);
 }
 .welcome-section .welcome-box b.icon-6 {
 	float: right;
@@ -845,52 +860,109 @@ body .padd-top-100 {
 	height: 66px;
 	border-radius: 16px;
 	background-color: transparent !important;
-	background-image: url(../images/emoji-mobile-phone-slide.png);
+	background-image: url("../images/emoji-mobile-phone-slide.png");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	position: relative;
-		/*opacity: 0.9;*/
-		background-position: 0 -66px; 
+	opacity: 0.9;
+	background-position: 0 -66px;
+	-ms-transform: scale(0.9); /* IE 9 */
+	-webkit-transform: scale(0.9); /* Safari 3-8 */
+	transform: scale(0.9);
+
+
 }
 .welcome-section .welcome-box p {
 	clear: both;
 	margin: 0 0 15px 0;
+	text-decoration: none;
 
 }
 .welcome-section .welcome-box a.btn-more {
-	background-image: url(../images/arrow-icon.png);
+	background-image: url("../images/arrow-icon.png");
 	background-repeat: no-repeat;
 	background-position: 95px -15px;
 	display: block;
-	text-decoration: none;
 	font: 400 16px/16px 'Montserrat', sans-serif;
 	color: #ccc;
+
+
 }
 .welcome-section .welcome-box:hover a.btn-more {
 	background-position: 95px 2px;
 	color: #1a1421;	
+	text-decoration: none;
 }
 .welcome-section .welcome-box:hover p, .welcome-section .welcome-box:hover h3 a {
 	color: #fff !important;
-	
 
 }
 .welcome-section .welcome-box:hover b.icon-1, .welcome-section .welcome-box:hover b.icon-2, .welcome-section .welcome-box:hover b.icon-3, .welcome-section .welcome-box:hover b.icon-4, .welcome-section .welcome-box:hover b.icon-5, .welcome-section .welcome-box:hover b.icon-6 {
-	background-color: transparent;
 	/*background-position: 0 -66px; */
-		opacity: 1.0;
+	opacity: 1.0;
+	transition: transform 0.5s ease-out;
+	-ms-transform: scale(1.0); /* IE 9 */
+	-webkit-transform: scale(1.0); /* Safari 3-8 */
+	transform: scale(1.0);
+	filter: none;
+	-webkit-filter: blur(0px); 
+	-moz-filter: blur(0px); 
+	-ms-filter: blur(0px);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	position: relative;
+	overflow: hidden;
 
-  transition: transform 0.4s;
-	 -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
-	
 }
-.welcome-section .welcome-box:hover:before {
+.welcome-section .welcome-box:hover:before, .welcome-box:focus, .welcome-box:active {
 	width: 100%;
 	background: linear-gradient(45deg, #d654ea 0%, #ea5455 50%,  #ead654 100%);
-
 }
+
+/* Radial Out */
+.hvr-radial-out {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
+	background: #e1e1e1;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+
+
+  }
+  .hvr-radial-out:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(45deg, #d654ea 0%, #ea5455 50%,  #ead654 100%);
+	border-radius: 100%;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+  }
+  .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+	color: white;
+  }
+  .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+	-webkit-transform: scale(2);
+	transform: scale(2);
+  }
 
 .services {
 	background: #1a1421 !important;
@@ -1273,6 +1345,8 @@ body .padd-top-100 {
 }
 .footer-social ul li {
 	float: left;
+		color: #ea5455 !important;
+
 	padding: 0 0 0 5px;
 }
 .footer-social ul li a {
@@ -1284,8 +1358,7 @@ body .padd-top-100 {
 	line-height: 48px;
 	background: #1a1421;
 	font-size: 33px;
-	
-	color: #ea5455;
+	color: #ea5455 !important;
 	text-decoration: none;
 }
 .links-widget {
@@ -1409,7 +1482,7 @@ body .padd-top-100 {
 	float: left;
 	width: 100%;
 }
-.footer-section-2 form input[type="text"] {
+.footer-section-2 form input[type="email"] {
 	float: left;
 	width: 100%;
 	height: 45px;
@@ -1419,10 +1492,15 @@ body .padd-top-100 {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	font: 400 14px 'Fira Code', sans-serif;
+	font: 400 14px 'Montserrat', sans-serif;
 	color: #777;
 
 }
+*:focus {
+    outline: 0 !important;
+}
+
+
 .footer-section-2 form input[type="submit"] {
 	float: left;
 	width: 75%;
