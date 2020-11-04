@@ -442,6 +442,7 @@ body .padd-top-100 {
 }
 #nav-id li {
 	float: left;
+	font-size: 24px !important;
 }
 #nav-id li.active {
 	position: relative;
