@@ -67,7 +67,8 @@
 /*===========================================================================*/
 @media (max-width: 1280px) {
 #banner .caption {
-	padding: -50px;
+	top: 80px;
+	font-size: 38px;
 }
 #inner-banner {
 	padding: 160px;
@@ -113,7 +114,12 @@
 	display: none;
 }
 #banner {
-	padding: 100px 0;
+	padding-top: 100px;
+	padding-bottom: 0px;
+	width: 100%;
+}	
+#banner .caption {
+	padding: 160px 0;
 
 }	
 
@@ -533,9 +539,13 @@ strong.logo {
 .navbar-collapse.in {
 	overflow: inherit;
 }
-#banner { top: 20px;}
+#banner {
+	padding-top: 100px;
+	padding-bottom: 0px;
+	width: 100%;
+}
 #banner .caption {
-	top: -50px;
+	top: 10%;
 }
 #banner .caption .holder {
 	width: 100%;
@@ -862,7 +872,7 @@ strong.logo {
 	margin: 15px 0 0 0;
 }
 #banner .caption {
-		font-size: 48px;
+	font-size: 48px;
 	top: 60px;
 }
 	
