@@ -123,7 +123,6 @@
 
 }	
 
-	
 strong.logo {
 	width: 100%;
 	text-align: center;
@@ -178,7 +177,7 @@ strong.logo {
 	width: 35%;
 }	
 	.author-thumb { 
-		width: 25% !important;
+		width: 35% !important;
 	}
 	.linear-light { 
 		padding-top: 20px;
@@ -215,10 +214,11 @@ strong.logo {
 	padding: 0;
 }
 #footer {
-	padding: 30px 0 0 0;
+	padding:  0;
 }
-.footer-box {
-	margin-bottom: 30px;
+h4 {
+	color: #ea5455 !important;
+	margin-bottom: 0px;
 }
 .footer-section-2 form {
 	margin: 20px 0 0 0;
@@ -378,7 +378,7 @@ body .padd-top-100.portfolio-section{
 	margin: 0 0 20px 0;
 }
 	
-	.author-thumb { width: 25% !important;}
+	.author-thumb { width: 50% !important;}
 	.linear-light { font-size: 16px;}
 	
 .post-author-box .author-info{
@@ -569,13 +569,18 @@ strong.logo {
 	padding: 30px 0;
 }
 .home-about-section .text-box {
-	text-align: center;
+	text-align: left;
+	margin-right: 6px;
 }
 .home-about-section .heading-left {
-	text-align: center;
+	text-align: left;
+	margin-right: 6px;
+
 }
 .home-about-section .heading-center span, .home-about-section .heading-left span {
-	text-align: center;
+	text-align: left;
+	margin-right: 6px;
+
 }
 .home-about-section .text-box h2 {
 	font-size: 36px;
@@ -818,7 +823,7 @@ strong.logo {
 	margin-bottom: 30px;
 }
 .portfolio-section {
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 }
 .blog-section .holder {
 	width: 100%;
@@ -850,8 +855,6 @@ strong.logo {
 	line-height: 23px;
 }
 }
-
-
 
 
 /*===========================================================================*/

@@ -458,7 +458,6 @@ body .padd-top-100 {
 	height: 4px;
 	background: linear-gradient(to right, #d654ea 0%, #ea5455 50%,  #ead654 100%);
 
-	
 }
 #nav-id li a {
 	font-family: 'Montserrat', sans-serif;
@@ -1345,8 +1344,7 @@ body .padd-top-100 {
 }
 .footer-social ul li {
 	float: left;
-		color: #ea5455 !important;
-
+	color: #ea5455 !important;
 	padding: 0 0 0 5px;
 }
 .footer-social ul li a {
@@ -1466,6 +1464,8 @@ body .padd-top-100 {
 	float: left;
 	width: 100%;
 	margin: 10px 0 60px 0;
+	background-color: #1a1421;
+	
 }
 .footer-section-2 strong.title {
 	display: block;
@@ -2610,10 +2610,38 @@ body .padd-top-100 {
 .social-share2 ul li a {
 	text-decoration: none;
 	color: #ea5455;
-	font-size: 26px;
+	font-size: 32px;
 	display: block;
 }
 .social-share2 ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+
+.social-share3 {
+	padding-top: 0px;
+	margin: 5%;
+	
+	
+}
+.social-share3 ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.social-share3 ul li {
+	float: left;
+	padding: 0 25px 0 0;
+}
+.social-share3 ul li a {
+	text-decoration: none;
+	color: #ea5455;
+	font-size: 54px;
+	display: block;
+}
+.social-share3 ul li a:hover {
 	text-decoration: none;
 	color: #fff;
 	display: block;
