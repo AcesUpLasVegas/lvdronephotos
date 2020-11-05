@@ -5,13 +5,22 @@
 @media (min-width: 1441px) {
 	.footer-section-1 {display: block;}
 	.social-share3 {display: none;}
+	#nav-id li a { font-size: 100% }
 }
+@media (min-width: 1px) and (max-width: 239px) {
+	.footer-section-1 {display: none;}
+	.social-share3 {display: block;}
+}
+@media (min-width: 767px) and (max-width: 1199px) {
+	.home-about-section .text-box  { float: none; margin-right: 6px; }
+}
+
 
 
 @media (max-width: 1440px) {
 	.footer-section-1 {display: block;}
 	.social-share3 {display: none;}
-
+	#nav-id li a { font-size: 100% }
 #inner-banner {
 	padding: 160px;
 	width: 100%;
@@ -50,6 +59,7 @@
 #banner .caption {
 	top: 120px;
 }
+#nav-id li a { font-size: 100% }
 .footer-section-1 {display: block;}
 .social-share3 {display: none;}
 #inner-banner {
@@ -138,7 +148,11 @@
 #banner .caption {
 	padding: 160px 0;
 
-}	
+}
+.contact-box p { margin: 12px; }	
+.text-col { margin-left: 12px; }
+.text-col .linear-light {  padding-bottom:  0px; }	
+
 
 strong.logo {
 	width: 100%;
@@ -191,8 +205,10 @@ strong.logo {
 }
 	
 #about-pic {
+	margin-top: 20px;
+	margin-left: 20px;
 	width: 35%;
-}	
+}
 	.author-thumb { 
 		width: 35% !important;
 	}
@@ -235,7 +251,7 @@ strong.logo {
 }
 
 h4 {
-	color: #ea5455 !important;
+	/* color: #ea5455 !important; */
 	margin-bottom: 0px;
 }
 .footer-section-2 form {
@@ -359,7 +375,7 @@ body .padd-top-100.portfolio-section{
 /*===========================================================================*/
 							/*480px CSS*/
 /*===========================================================================*/
-@media (min-width: 240px) and (max-width: 480px) {
+@media (min-width: 1px) and (max-width: 480px) {
 .topbar {
 	display: none;
 }
@@ -368,9 +384,11 @@ body .padd-top-100.portfolio-section{
 .linear-title {
 	font-size: 24px;	
 }
-	
+.text-col .linear-light { font-size: 200%;}	
 #about-pic {
-	width: 25%;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 35%;
 }	
 	
 body .padd-top-100.portfolio-section{
@@ -716,16 +734,20 @@ strong.logo {
 }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+	#about-pic {
+		margin-left: 20px;
+		padding: 20px 20px 20px 20px;
+		width: 50% !important; 
+	}
 
+}
 
 /*===========================================================================*/
 						/*768px And 992px CSS*/
 /*===========================================================================*/
 @media (min-width: 768px) and (max-width: 992px) {
-.topbar .left-box ul li {
-	padding: 0 10px 0 0;
-	font-size: 12px;
-}
+
 .footer-section-1 {display: block;}
 .social-share3 {display: none;}
 .contact-box{
@@ -733,6 +755,8 @@ strong.logo {
 }
 	
 #about-pic {
+	margin-top: 20px;
+	margin-left: 20px;
 	width: 50%;
 }
 	
