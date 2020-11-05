@@ -1,7 +1,17 @@
 /*===========================================================================*/
 							/*1440px CSS*/
 /*===========================================================================*/
+
+@media (min-width: 1441px) {
+	.footer-section-1 {display: block;}
+	.social-share3 {display: none;}
+}
+
+
 @media (max-width: 1440px) {
+	.footer-section-1 {display: block;}
+	.social-share3 {display: none;}
+
 #inner-banner {
 	padding: 160px;
 	width: 100%;
@@ -40,6 +50,8 @@
 #banner .caption {
 	top: 120px;
 }
+.footer-section-1 {display: block;}
+.social-share3 {display: none;}
 #inner-banner {
 	padding: 160px;
 	width: 100%;
@@ -66,6 +78,9 @@
 							/*1280px CSS*/
 /*===========================================================================*/
 @media (max-width: 1280px) {
+	.footer-section-1 {display: block;}
+	.social-share3 {display: none;}
+
 #banner .caption {
 	top: 80px;
 	font-size: 38px;
@@ -113,6 +128,8 @@
 .topbar {
 	display: none;
 }
+.footer-section-1 {display: none;}
+.social-share3 {display: block;}
 #banner {
 	padding-top: 100px;
 	padding-bottom: 0px;
@@ -216,6 +233,7 @@ strong.logo {
 #footer {
 	padding:  0;
 }
+
 h4 {
 	color: #ea5455 !important;
 	margin-bottom: 0px;
@@ -345,6 +363,8 @@ body .padd-top-100.portfolio-section{
 .topbar {
 	display: none;
 }
+.footer-section-1 {display: none;}
+.social-share3 {display: block;}
 .linear-title {
 	font-size: 24px;	
 }
@@ -706,6 +726,8 @@ strong.logo {
 	padding: 0 10px 0 0;
 	font-size: 12px;
 }
+.footer-section-1 {display: block;}
+.social-share3 {display: none;}
 .contact-box{
 	padding:120px 10px 54px 10px;
 }
@@ -861,6 +883,8 @@ strong.logo {
 							/*1199px CSS*/
 /*===========================================================================*/
 @media (min-width: 993px) and (max-width: 1199px) {
+.footer-section-1 {display: block;}
+.social-share3 {display: none;}
 #nav-id li ul {
 	top: 37px;
 }
