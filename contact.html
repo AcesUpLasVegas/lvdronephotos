@@ -23,7 +23,12 @@
   }
   </script>
 <!--  END js for footer email submission-->
-
+<script>
+  function confirmInputLong() {
+    
+    alert(" Thank You for contacting us!\n\n We will not share your information.");
+  }
+  </script>
 </head>
 <body>
 <div id="wrapper"> 
@@ -88,30 +93,31 @@ var currentScrollPos = window.pageYOffset;
         <div class="holder">
           <div class=" row">
             <div class="col-md-8 col-sm-8">
-              <form action="#">
+              <form onsubmit="confirmInputLong()" enctype="text/plain" name="gform2" id="gform2"  action="https://docs.google.com/forms/d/e/1FAIpQLSc_JHth3qne5S1pDILCIzn9VDMboaBY4t-3_dA5hYl5KPMZww/formResponse?" target="hidden_iframe2" onsubmit="submitted=true;">
                 <h3 id="nutrag"></h3>
                 <p></p>
                 <div class="row">
                   <div class="col-md-6">
-                    <input type="text" placeholder="What's your name?" required>
+                    <input type="text" name="entry.1483559847" id="entry.1483559847" placeholder="What's your name?" required>
                   </div>
                   <div class="col-md-6">
-                    <input type="text" placeholder="Email" required>
+                    <input type="email" name="entry.1417182338" id="entry.1417182338" placeholder="Email" required>
                   </div>
                   <div class="col-md-6">
-                    <input type="text" placeholder="Phone" required>
+                    <input type="tel" name="entry.707486799" id="entry.707486799" placeholder="Phone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  required>
                   </div>
                   <div class="col-md-6">
-                    <input type="text" placeholder="Filming Location" required>
+                    <input type="text" name="entry.2137857756" id="entry.2137857756" placeholder="Filming Location" required>
                   </div>
                   <div class="col-md-12">
-                    <textarea cols="10" rows="10" placeholder="How can we help you? [ example: 'I need a real estate video' ]"></textarea>
+                    <textarea cols="10" rows="10" name="entry.635820490" id="entry.635820490" placeholder="How can we help you? [ example: 'I need a real estate video' ]"></textarea>
                   </div>
                   <div class="btn-more">
                     <input type="submit" value="Send">
                   </div>
                 </div>
               </form>
+              <iframe name="hidden_iframe2" id="hidden_iframe2" style="display:none;" onload="if(submitted) {}"></iframe>
             </div>
             <div class="col-md-4 col-sm-4">
               <div class="contact-box">
