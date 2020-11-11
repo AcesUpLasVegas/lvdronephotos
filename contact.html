@@ -18,15 +18,15 @@
 <!-- js for footer email submission-->
 <script>
   function confirmInput() {
-    
-    alert(" Thank You for joining our mailing list!\n\n We will not share your information.");
+    window.location.href = "shell.html";
+
   }
   </script>
 <!--  END js for footer email submission-->
 <script>
   function confirmInputLong() {
     
-    alert(" Thank You for contacting us!\n\n We will not share your information.");
+    window.location.href = "shell.html";
   }
   </script>
 </head>
@@ -48,7 +48,7 @@
                  <li><a href="about.html">About</a></li>
                  <li><a href="video.html">Recent&nbsp; Projects</a></li>
                  <li><a href="services.html">Services</a></li>
-                 <li><a href="portfolio.html">Portfolio</a></li>
+                 <li><a href="portfolio.html">Gallery</a></li>
                  <li class="active"><a href="contact.html">Contact</a></li>
                </ul>
              </div>
@@ -104,7 +104,8 @@ var currentScrollPos = window.pageYOffset;
                     <input type="email" name="entry.1417182338" id="entry.1417182338" placeholder="Email" required>
                   </div>
                   <div class="col-md-6">
-                    <input type="tel" name="entry.707486799" id="entry.707486799" placeholder="Phone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  required>
+                    <input type="tel" name="entry.707486799" id="entry.707486799" placeholder="Phone"  pattern="\+?1?\s?-?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}"  required>
+  
                   </div>
                   <div class="col-md-6">
                     <input type="text" name="entry.2137857756" id="entry.2137857756" placeholder="Filming Location" required>
@@ -259,7 +260,7 @@ var currentScrollPos = window.pageYOffset;
           <li><a href="about.html">About</a></li>
           <li><a href="video.html">Recent Projects</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="portfolio.html">Gallery</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>

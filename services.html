@@ -16,8 +16,8 @@
 <!-- js for footer email submission-->
 <script>
   function confirmInput() {
-    
-    alert(" Thank You for joining our mailing list!\n\n We will not share your information.");
+    window.location.href = "shell.html";
+
   }
   </script>
 <!--  END js for footer email submission-->
@@ -41,7 +41,7 @@
                  <li><a href="about.html">About</a></li>
                  <li><a href="video.html">Recent&nbsp; Projects</a></li>
                  <li class="active"><a href="services.html">Services</a></li>
-                 <li><a href="portfolio.html">Portfolio</a></li>
+                 <li><a href="portfolio.html">Gallery</a></li>
                  <li><a href="contact.html">Contact</a></li>
                </ul>
              </div>
@@ -68,7 +68,7 @@ var currentScrollPos = window.pageYOffset;
 <!--HEADER END-->
 
   <!--INNER BANNER START-->
-  <div id="inner-banner">
+  <div id="inner-banner-3">
     <div class="container">
 	  <div >
       <h1 class="linear-grad">Services</h1>
@@ -86,48 +86,76 @@ var currentScrollPos = window.pageYOffset;
     <section class="welcome-section services">
       <div class="post-author-box" >
           <div id="real-estate-service"><img src="images/house-building_1f3e0.png" alt="img"  class="author-thumb"></div>
-             <div class="author-info">
-               <h6 class="linear-yellow">Real Estate Videos </h6>
+          <div class="author-info">
+          <h6 class="linear-yellow">Real Estate Videos </h6>
               				 
 							 
           <p>Specializing in drone videos for real estate. Full home real estate videos and photos available, for every type of property, including apartments and condominiums for rent. Real estate drone videos are perfect for out-of-state buyers investing in Las Vegas real estate.</p> <p> Video content has proven to be a top real estate marketing tool in 2020, with no signs of slow-down. Aerial videography can really show off those luxury homes and stunning landscapes and is essential for real estate advertising moving into 2021.<br> Check out some recent video of Las Vegas Real Estate:</p>
-          <div class="instagram-widget">
-            <ul>
-              <li><a href="#"><img src="images/sidebar-insta-img-1.jpg" alt="img"></a></li>
-              <li><a href="#"><img src="images/sidebar-insta-img-2.jpg" alt="img"></a></li>
-              <li><a href="#"><img src="images/sidebar-insta-img-3.jpg" alt="img"></a></li>
-              <li><a href="#"><img src="images/sidebar-insta-img-4.jpg" alt="img"></a></li>
-              <li><a href="#"><img src="images/sidebar-insta-img-5.jpg" alt="img"></a></li>
-              <li><a href="#"><img src="images/sidebar-insta-img-6.jpg" alt="img"></a></li>
-            </ul>
-            <br>
+          
+         
+          <div class="col-md-6 col-sm-6">
+            <div class="video-box"> <img src="images/turnberry-place-yt-thumb-539x352.png" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal"></a>
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe src="https://www.youtube.com/embed/iCSpTD89-Yc"></iframe>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+            </div>
           </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="video-box"> <img src="images/lakes-yt-thumb-539x352.png" alt="img"> <a href="#" class="btn-play" data-toggle="modal" data-target="#myModal2"></a>
+              <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/WlUIuytUluY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
 				 				 
                     <div class="social-share2">
                       <ul>
                         <li><a href="https://www.instagram.com/acesupmedia/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UCRFAGltc0nhdqjXxr9SS5mA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-						<li><a href="https://www.zillow.com/profile/acesuplasvegas/"><i class="fa fa-video-camera" aria-hidden="true"></i></a></li>
+						            <li><a href="https://www.zillow.com/profile/acesuplasvegas/"><i class="fa fa-video-camera" aria-hidden="true"></i></a></li>
 
                       </ul>
                     </div>
-                  </div>
-		</div>
-		<div class="post-author-box">
+                                    <div class="service-button"><a href="contact.html" class="btn-more">Learn More</a></div>
+                    </div>
+      </div>
+          <div class="post-author-box">
           <div id="aerial-photography-service"><img src="images/emoji-camera.png" alt="img" class="author-thumb"></div>
              <div class="author-info">
-               <h6 class="linear-yellow">Aerial Photography </h6>
+               <h6 class="linear-yellow">Aerial Photos </h6>
 			
                   <p>We do more than drone real estate photography. Aerial photography for business marketing content, Car dealerships, Roof and Tower inspection, Construction and civil engineering projects. </p> <p>Drone pictures are essential for commercial and residential real estate advertising in 2021. Make your Facebook ads and social media content stand out with drone photography! FAA Certified drone pilot, authorized to fly the Vegas Strip.</p>
                   	 
 				<div class="instagram-widget">
           <ul>
-            <li><a href="#"><img src="images/lakes-3-85.png" alt="img"></a></li>
-            <li><a href="#"><img src="images/strip-1.png" alt="img"></a></li>
-            <li><a href="#"><img src="images/lk-85.png" alt="img"></a></li>
-            <li><a href="#"><img src="images/lakes-2-85.png" alt="img"></a></li>
-            <li><a href="#"><img src="images/turnberry-place-83x85.png" alt="img"></a></li>
-            <li><a href="#"><img src="images/turnberry-gate-83x85.png" alt="img"></a></li>
+            <li><a href="images/lakes-1.jpg"><img src="images/lakes-1-85.png" alt="lakes-summerlin-las-vegas-luxury-real-estate-drone-photo"></a></li>
+            <li><a href="images/lakes-2.jpg"><img src="images/lakes-2-85.png" alt="lakes-summerlin-las-vegas-luxury-real-estate-aerial-photo"></a></li>
+            <li><a href="images/turnberry-2.jpg"><img src="images/turnberry-place-2-83x85.png" alt="turnberry-place-luxury-high-rise-las-vegas-strip-properties"></a></li>
+            <li><a href="images/turnberry-1.jpg"><img src="images/turnberry-place-83x85.png" alt="turnberry-place-luxury-high-rise-las-vegas-strip-properties"></a></li>
+    
+
+            <li><a href="images/freeway2.png"><img src="images/freeway2-93x95.png" alt="las-vegas-freeway-highway-215"></a></li>
+
+            <li><a href="images/cell-tower-1.jpg"><img src="images/cell-1-85.png" alt="cellular-tower-disguised-as-tree"></a></li>
           </ul>
           <br>
         </div>
@@ -136,14 +164,15 @@ var currentScrollPos = window.pageYOffset;
                       <ul>
                         <li><a href="https://www.instagram.com/acesupmedia/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         <li><a href="portfolio.html"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
-						 <li><a href="https://www.pond5.com/artist/acesup#1/2063"><i class="fa fa-download" aria-hidden="true"></i></a></li>
-
+						            <li><a href="https://www.pond5.com/artist/acesup#1/2063"><i class="fa fa-download" aria-hidden="true"></i></a></li>
                       </ul>
                     </div>
                   </div>
-		</div>
-		<div class="post-author-box">
-			<div id="stock-footage-service"><img src="images/emoji-movie-camera.png" alt="img" class="author-thumb"></div>
+                
+                  <div class="service-button"><a href="contact.html" class="btn-more">Get Pricing</a></div>
+		    </div>
+		    <div class="post-author-box">
+			  <div id="stock-footage-service"><img src="images/emoji-movie-camera.png" alt="img" class="author-thumb"></div>
              <div class="author-info">
                <h6 class="linear-yellow">Stock Footage </h6>
                   <p>Featuring 4k drone footage of the Las Vegas strip, drone views of golf courses and residential neighborhoods, luxury homes, landscape aerial views, and more! </p> <p>Stock drone footage is a valuable real estate marketing tool. Aerial cinematography clips for TV, short film, YouTube, and social media content. Quality checked and hosted by top stock footage sites!</p>
@@ -155,6 +184,7 @@ var currentScrollPos = window.pageYOffset;
                       </ul>
                     </div>
                   </div>
+                  <div class="service-button"><a href="https://www.pond5.com/artist/acesup#1/2063" class="btn-more">Purchase Footage</a></div>
 		</div>
 		
 		<div class="post-author-box">
@@ -170,6 +200,7 @@ var currentScrollPos = window.pageYOffset;
                       </ul>
                     </div>
                   </div>
+                  <div class="service-button"><a href="contact.html" class="btn-more">Learn More</a></div>
 		</div>
 		
 		<div class="post-author-box">
@@ -180,28 +211,29 @@ var currentScrollPos = window.pageYOffset;
                     <div class="social-share2">
                       <ul>
                         <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/JeremiahDMoore"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                         <li><a href="https://www.upwork.com/freelancers/~01069fed85636ede3d"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
                       </ul>
                     </div>
                   </div>
+                  <div class="service-button"><a href="https://www.upwork.com/freelancers/~01069fed85636ede3d?viewMode=1" class="btn-more">Learn More</a></div>
 		</div>
 		
 		<div class="post-author-box">
           <div id="mobile-app-service"><img src="images/emoji-mobile-phone.png" alt="img" class="author-thumb"></div>
              <div class="author-info">
-               <h6 class="linear-yellow">Mobile App Development </h6>
+               <h6 class="linear-yellow">Mobile apps </h6>
                   <p>Right now we are offering mobile apps for personal productivity, influencers, and artists iOS and Android available. </p>
                     <div class="social-share2">
                       <ul>
                         <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/JeremiahDMoore"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="https://whalestacks.com"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
                         <li><a href="https://www.instagram.com/whalestacks/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-
                       </ul>
                     </div>
                   </div>
+                  <div class="service-button"><a href="contact.html" class="btn-more">Learn More</a></div>
     </div>
     <div class="post-author-box">
     </div>
@@ -322,7 +354,7 @@ var currentScrollPos = window.pageYOffset;
           <li><a href="about.html">About</a></li>
           <li><a href="video.html">Recent Projects</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="portfolio.html">Gallery</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
