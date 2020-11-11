@@ -1459,6 +1459,7 @@ body .padd-top-100 {
 }
 .footer-gallery ul li:hover img{
 	opacity:0.5;
+
 }
 .footer-section-2 {
 	float: left;
@@ -1575,17 +1576,17 @@ body .padd-top-100 {
 	float: left;
 	width: 100%;
 	height: 100%;
-	background: url("../images/strip-2.png") no-repeat left top/cover;
+	background: url("../images/sunset3.png") no-repeat left top/cover;
 	padding: 160px 0;
 }
 #inner-banner h1 {
 	float: left;
-	color: #fff;
+	color: #dedede !important;
 }
 #inner-banner-2 {
 	float: left;
 	width: 100%;
-	background: url("../images/top_down_1_45.png") no-repeat left top/cover;
+	background: url("../images/topdown4.png") no-repeat left top/cover;
 	padding: 160px 0;
 }
 #inner-banner-2 h1 {
@@ -1595,7 +1596,46 @@ body .padd-top-100 {
 	font-size: 7vw;
 	color: #dedede;
 	text-shadow: 0 5px 12px rgba(10,10,10,0.70);
+}
+#inner-banner-3 {
+	float: left;
+	width: 100%;
+	height: 100%;
+	background: url("../images/lake-las-4.png") no-repeat left top/cover;
+	padding: 160px 0;
+}
+#inner-banner-3 h1 {
+	float: left;
+	color: #dedede !important;
+}
+#inner-banner-4 {
+	float: left;
+	width: 100%;
+	background: url("../images/boats5.png") no-repeat left top/cover;
+	padding: 160px 0;
+}
+#inner-banner-4 h1 {
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 7vw;
+	color: #dedede !important;
+	text-shadow: 0 5px 12px rgba(10,10,10,0.70);
+}
 
+#inner-banner-5 {
+	float: left;
+	width: 100%;
+	background: url("../images/top_down_1_45.png") no-repeat left top/cover;
+	padding: 160px 0;
+}
+#inner-banner-5 h1 {
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 7vw;
+	color: #dedede !important;
+	text-shadow: 0 5px 12px rgba(10,10,10,0.70);
 }
 
 #inner-banner .breadcrumb {
@@ -1961,6 +2001,15 @@ body .padd-top-100 {
 	margin: 0 0 30px 0;
 	resize: none;
 }
+.contact-section input:focus, textarea:focus{
+	/* font-weight: bold !important; */
+	font-weight: bold !important;
+    color: #000 !important;
+}
+.footer-section-2  email:focus {
+	font-weight: bold !important;
+    color: #000 !important;
+}
 .contact-section .holder form input[type="submit"] {
 	float: left;
 	margin-left: 20px;
@@ -1968,7 +2017,7 @@ body .padd-top-100 {
 	padding: 16px 80px;
 	border: #ea5455, 2px;
 	background: linear-gradient(45deg, #d654ea 0%, #ea5455 50%,  #ead654 100%) !important;
-	color: #fff;
+	color: #fff !important;
 	font: 400 24px 'Fira Code', sans-serif;
 }
 .contact-section .holder form input::-webkit-input-placeholder {
@@ -2624,6 +2673,21 @@ body .padd-top-100 {
 .post-author-box .author-info h6 {
 	margin: 0 0 15px 0;
 }
+.service-button a.btn-more {
+	float: right;
+	border: 1px solid #ea5455  ;
+	border-radius: 24px;
+	padding: 17px 45px;
+	text-decoration: none;
+	font: 400 16px/16px 'Fira Code', sans-serif;
+	background: transparent;
+	color: #ea5455  ;
+}
+.service-button a.btn-more:hover {
+	background: #ea5455 !important;
+	color: #fff !important;
+	text-decoration: none;
+}
 .social-share2 {
 	float: left;
 	width: 100%;
@@ -2739,7 +2803,7 @@ ul#comments .children {
 
 
 
-#nav-id li a, .head-social ul li a, .text-box a.btn-more, .welcome-icon-row a, .welcome-section .welcome-box, .welcome-section .welcome-box p, .welcome-section .welcome-box h3 a, .welcome-section .welcome-box a.btn-more, .welcome-section .welcome-box b.icon-1, .welcome-section .welcome-box:before, .welcome-section .welcome-box b.icon-2, .welcome-section .welcome-box b.icon-3, .welcome-section .welcome-box b.icon-4, .welcome-section .welcome-box b.icon-5, .welcome-section .welcome-box b.icon-6, .portfolio-box .frame .caption:before, .portfolio-box .frame .caption:after, .portfolio-box .frame a.zoom, .footer-social ul li a, .footer-menu ul li a, .pagination-box .pagination > li > a, .provide-box .caption:before, .provide-box .caption .holder, .share-row ul li a, .social-share2 ul li a, #banner .caption a.btn-more, .home-about-section .thumb:after, .home-about-section .thumb:before, .home-about-section .thumb img, .event-section .event-box .frame img, .event-section .event-box .text-box, .event-section .event-box .text-box h3 a, .event-section .event-box a.btn-read, .event-section a.btn-more, .blog-section .post-box .frame img, .blog-section .post-box .text-box h3 a, .post-box .text-box h4 a, .blog-section .post-box:hover .text-box, .blog-section .post-box a.btn-more, .links-widget ul li a, .footer-box .recent-widget ul li .text-col h6 a, .footer-box .recent-widget ul li .text-col span, .footer-section-2 form input[type="submit"], .footer-gallery ul li img, .footer-box .recent-widget ul li .thumb img, .search-widget form button, .services-detail .content-area .frame img, .comment-box form input[type="submit"], .recent-widget ul li .thumb img, .recent-widget ul li .text-col a, .archives-widget ul li a, .instagram-widget ul li img, .newsletter-widget form input[type="submit"], .equipment-box, .equipment-box .text-box, .equipment-box .text-box h3 a, .equipment-box .frame img, .equipment-box .text-box a.btn-video, .video-box img, .video-section a.btn-more, .portfolio-section a.btn-more, .blog-section .post-box .detail-row ul li a{
+#nav-id li a, .head-social ul li a, .text-box a.btn-more, .service-button a.btn-more, .welcome-icon-row a, .welcome-section .welcome-box, .welcome-section .welcome-box p, .welcome-section .welcome-box h3 a, .welcome-section .welcome-box a.btn-more, .welcome-section .welcome-box b.icon-1, .welcome-section .welcome-box:before, .welcome-section .welcome-box b.icon-2, .welcome-section .welcome-box b.icon-3, .welcome-section .welcome-box b.icon-4, .welcome-section .welcome-box b.icon-5, .welcome-section .welcome-box b.icon-6, .portfolio-box .frame .caption:before, .portfolio-box .frame .caption:after, .portfolio-box .frame a.zoom, .footer-social ul li a, .footer-menu ul li a, .pagination-box .pagination > li > a, .provide-box .caption:before, .provide-box .caption .holder, .share-row ul li a, .social-share2 ul li a, #banner .caption a.btn-more, .home-about-section .thumb:after, .home-about-section .thumb:before, .home-about-section .thumb img, .event-section .event-box .frame img, .event-section .event-box .text-box, .event-section .event-box .text-box h3 a, .event-section .event-box a.btn-read, .event-section a.btn-more, .blog-section .post-box .frame img, .blog-section .post-box .text-box h3 a, .post-box .text-box h4 a, .blog-section .post-box:hover .text-box, .blog-section .post-box a.btn-more, .links-widget ul li a, .footer-box .recent-widget ul li .text-col h6 a, .footer-box .recent-widget ul li .text-col span, .footer-section-2 form input[type="submit"], .footer-gallery ul li img, .footer-box .recent-widget ul li .thumb img, .search-widget form button, .services-detail .content-area .frame img, .comment-box form input[type="submit"], .recent-widget ul li .thumb img, .recent-widget ul li .text-col a, .archives-widget ul li a, .instagram-widget ul li img, .newsletter-widget form input[type="submit"], .equipment-box, .equipment-box .text-box, .equipment-box .text-box h3 a, .equipment-box .frame img, .equipment-box .text-box a.btn-video, .video-box img, .video-section a.btn-more, .portfolio-section a.btn-more, .blog-section .post-box .detail-row ul li a{
 	transition: all 0.6s ease-in-out 0s;
 	-moz-transition: all 0.6s ease-in-out 0s;
 	-webkit-transition: all 0.6s ease-in-out 0s;
