@@ -106,7 +106,78 @@ Sidebar heading:	font-family: 'Fjalla One', sans-serif;
 -	Blog Detail						Line		000			-		000		
 
 End of Table of Conten*/
+#header {
 
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	}
+
+#about-pic, .btn-more {
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	}
+
+#services {
+
+		animation: fadeIn ease 1s;
+		-webkit-animation: fadeIn ease 1s;
+		}
+
+.footer-box, .footer-gallery, .footer-menu, .footer-section-1, .footer-section-2, .footer-section-3, .footer-social {
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+		}
+
+.post-author-box {
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	}
+
+.contact-box, form {
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	}
+
+.contact-section .holder {
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body .fa{
+
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+		}
+	
+	@keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+		}
+		
+		@-moz-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+		}
+		
+		@-webkit-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+		}
+		
+		@-o-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+		}
+		
+		@-ms-keyframes fadeIn {
+		0% {opacity:0;}
+		100% {opacity:1;}
+		}
 
 body {
 	margin: 0;
@@ -1538,6 +1609,7 @@ body .padd-top-100 {
 	width: 100%;
 	background: #111;
 	padding: 20px 0;
+	
 }
 .footer-section-3 strong.copyrights {
 	float: left;
@@ -1586,7 +1658,7 @@ body .padd-top-100 {
 #inner-banner-2 {
 	float: left;
 	width: 100%;
-	background: url("../images/topdown4.png") no-repeat left top/cover;
+	background: url("../images/topdown4-small.png") no-repeat left top/cover;
 	padding: 160px 0;
 }
 #inner-banner-2 h1 {
@@ -1601,17 +1673,21 @@ body .padd-top-100 {
 	float: left;
 	width: 100%;
 	height: 100%;
-	background: url("../images/lake-las-4.png") no-repeat left top/cover;
+	background: url("../images/lake-las-4-small.png") no-repeat left top/cover;
 	padding: 160px 0;
 }
 #inner-banner-3 h1 {
 	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 7vw;
 	color: #dedede !important;
+	text-shadow: 0 5px 12px rgba(10,10,10,0.70);
 }
 #inner-banner-4 {
 	float: left;
 	width: 100%;
-	background: url("../images/boats5.png") no-repeat left top/cover;
+	background: url("../images/boats5-small.png") no-repeat left top/cover;
 	padding: 160px 0;
 }
 #inner-banner-4 h1 {
@@ -2006,7 +2082,7 @@ body .padd-top-100 {
 	font-weight: bold !important;
     color: #000 !important;
 }
-.footer-section-2  email:focus {
+.footer-section-2  input:focus {
 	font-weight: bold !important;
     color: #000 !important;
 }
