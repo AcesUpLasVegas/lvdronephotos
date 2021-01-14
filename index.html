@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aces Up</title>
+<title>Aces Up Media</title>
 <link href="css/style-safe.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -13,8 +13,21 @@
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
 <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<!-- js for footer email submission-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127073080-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127073080-2');
+</script>
+
+<!-- js for footer email submission
 <script>
   function confirmInput() {
     window.location.href = "shell.html";
@@ -23,20 +36,84 @@
   </script>
 <!--  END js for footer email submission-->
 
+<!-- js for footer MOBILE email submission (pop-up, g forms will not submit from iOS safari
+<div  class="social-share3">
+<script>
+  function confirmInput() {
+    
+    alert(" Thank You for joining our mailing list!\n\n We will not share your information.");
+  }
+  </script></div>
 <!--  END js for footer email submission-->
 
+
+<!-- js for footer email submission-->
+
+<script>
+  function confirmInput() {
+
+    alert(" Thank You for joining our mailing list!\n\n We will not share your information.");
+
+  }
+</script>
+
+ 
+<style>
+    * {
+      box-sizing: border-box;
+    }
+
+    #myVideo {
+      position: relative;
+      right: 0;
+      width: 100%; 
+      max-height: 150%;
+    }
+
+    .item { width: 100%; height: auto;       position: relative;
+
+}	
+    
+    .content {
+      position: absolute;
+      bottom: 0;
+      font-family: monospace;
+      background: rgba(0, 0, 0, 0.0);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    #myBtn {
+      width: 80px;
+      font-size: 14px;
+      font-family: sans-serif;
+      padding: 5px;
+      border: 1px solid #ea5455;
+      border-radius: 18px;
+      background: transparent;
+      color: #ea5455;
+      cursor: pointer;
+    }
+    
+    #myBtn:hover {
+      background:#ea5455;
+      color: #fff ;
+    }
+    </style>
+
 </head>
-<body>
+
+
 <div id="wrapper"> 
 <!--HEADER START-->
-<header id="header">
+<header  id="header">
   <section class="logo-row">
-	<div class="container"> <strong class="linear-wipe"><a href="index.html">Aces Up Media</a></strong>
+	<div class="container"> <div class="logo"><img src="images/logo-v12.png" width="35%"></div>
 	  <div class="navigation-section">
 		<nav class="navbar navbar-inverse">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-			</button>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
           </div>
              <div id="navbar" class="collapse navbar-collapse">
                <ul class="navbar-nav" id="nav-id">
@@ -52,9 +129,8 @@
         </div>
 	  </div>
    </section>
-</header>
 
-<!-- Hidden Title Bar JavaScript-->
+<!-- Hidden Title Bar JavaScript
 <script>
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -62,25 +138,44 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("header").style.top = "0";
   } else {
-    document.getElementById("header").style.top = "-100px";
+    document.getElementById("header").style.top = "-160px";
   }
   prevScrollpos = currentScrollPos;
 }
-</script>
-
+</script>-->
+</header>
 <!--HEADER END-->
   
   <!--BANNER START-->
   <div id="banner">
     <!--<div class="owl-carousel banner-1">-->
-      <div class="item" style="background-color:#1a1421 !important;"> <img src="images/red-rock.jpg" alt="img">
-        <div class="caption">
-          <div class="container">
-            <div class="holder"> <strong></strong>
-              <h1 class="fira">Quality Aerial Content</h1>
-               </div>
-          </div>
-        </div>
+      <div class="item" style="background-color:#1a1421 !important;">
+            <video autoplay="true" muted="true" loop="true" id="myVideo">
+              <source src="HEADER1.mp4" type="video/mp4" allow="autoplay">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <div class="content">
+              <h1></h1>
+              
+              <button id="myBtn" onclick="myFunction()"><i class="fa fa-pause" aria-hidden="true"></i></button>
+            </div>
+            
+            <script>
+            var video = document.getElementById("myVideo");
+            var btn = document.getElementById("myBtn");
+            video.muted = true;
+            function myFunction() {
+             
+              if (video.paused) {
+                video.play();
+                btn.innerHTML = "<i class=\"fa fa-pause\" aria-hidden=\"true\"></i>";
+              } else {
+                video.pause();
+                btn.innerHTML = "<i class=\"fa fa-play\" aria-hidden=\"true\"></i>";
+              }
+            }
+            </script>
       </div>
       <!--<div class="item"> <img src="images/strip.jpg" alt="img">
         <div class="caption">
@@ -94,148 +189,91 @@ var currentScrollPos = window.pageYOffset;
     </div> -->
   </div>
   <!--BANNER END-->
-  
-  <div id="main"> 
-    <!--HOME ABOUT US SECTION START-->
-    <section class="home-about-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-6">
-            <div class="text-box">
-              <div class="heading-left"> <span> </span>
-                <h2 class="linear-title">Welcome To <br>Aces Up Media!</h2>
-              </div>
-              <p>Drone video for real estate and aerial photography. Specializing in drone views of Las Vegas. Drone service for hire to film your full-length real estate video with drone. Real estate drone videos are perfect for out-of-state buyers investing in Las Vegas real estate. Video content has proven to be a top real estate marketing tool in 2020, with no signs of slow-down.   </p>
-              <p>In addition to drone video for real estate we offer stock footage and photos to use in your content creation. We provide in-house video editing services and web design as well. We have collaborated with local artists to film music videos, TV shows, events and weddings. We want to work with talented artists, entrepreneurs, start-ups and influencers. Let's create content for your YouTube and social media brand! Our mission is to provide quality media to our friends in the Las Vegas area, and to the rest of the world.</p>
-              <a href="about.html" class="btn-more">Learn More</a> </div>
-          </div>
-          <div class="col-md-6 col-sm-6">
-            <div class="thumb"><span><lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ZNmWRs.json" background="transparent"  speed="1"  style="width: 400px; height: 400px;" loop autoplay ></lottie-player></span></div>
-          </div>
+
+
+  <body>
+
+<div id="main"> 
+  <!--HOME ABOUT US SECTION START-->
+  <section class="home-about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="text-box">
+            <div class="heading-left"> <span> </span>
+              <h2 class="linear-wipe-alt">Welcome To <br>Aces Up Media!</h2>
+            </div>
+            <p>We specialize in drone video for real estate and aerial photography. Drone service for hire to film your full-length real estate video. Real estate videos are perfect for out-of-state buyers investing in Las Vegas real estate. Video content has proven to be a valuable real estate marketing tool in recent years, and even more in the future!   </p>
+           
+            <a href="real-estate.html" class="btn-more">Current Rates</a> </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="thumb"><span><lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ZNmWRs.json" background="transparent"  speed="1"  style="width: 400px; height: 400px;" loop autoplay ></lottie-player></span></div>
         </div>
       </div>
-    </section>
-    <!--HOME ABOUT US SECTION END--> 
+    </div>
+  </section>
+  <!--HOME ABOUT US SECTION END--> 
+</div> 
+
+
+
+
+
+   <!--PORTFOLIO SECTION START-->
+
+   <div class="portfolio-section">
+    <div class="container">
+      <div class="heading-center"> <span><p></p></span>
+        <h2 class="linear-wipe-alt" style="color: white !important;">Recent Projects<p></p></h2><p></p>
+      </div>
+    </div>
+    <div class="gradient-divider"></div>
+
+    <div class="post-author-box">
+      <div id="real-estate-service"><a href="video.html#video-1">
+        <img src="images/vantage-thumb-300x200.png" alt="las-vegas-drone-photos-apartment-marketing-video"  class="author-thumb" id="photo-fade"></a></div>
+
+      <a href="video.html#video-3">
+      <div class="author-info"><br>
+        <h4 id="nutrag" style="font-family: 'Montserrat', sans-serif;">Vantage Lofts Apartments </h4><br>
+                   
+           
+      <p>Apartment marketing video for Vantage Lofts property in Las Vegas. Drone video for real estate photography in Las Vegas.
+      
+      </p></a></div>
+    </div>
+
+
+
+    <div class="post-author-box">
+      <div id="real-estate-service"><a href="video.html#video-2">
+        <img src="images/turnberry-gate-thumb-300x200.png" alt="las-vegas-drone-luxury-high-rise-marketing-video"  class="author-thumb" id="photo-fade"></a></div>
+
+      <a href="video.html#video-1">
+      <div class="author-info"><br>
+      <h4 id="nutrag" style="font-family: 'Montserrat', sans-serif;">Turnberry Place </h4><br>
+                   
+           
+      <p>Short aerial marketing video and photos of Turnberry Place Luxury high-rises and the Stirling Club, prime residential real estate located on the Las Vegas strip.</p></a></div>
+      
+
+    </div>
+    <div class="post-author-box">
+      <div id="real-estate-service"><a href="video.html#video-3">
+        <img src="images/lyric-thumb-yt-300x200.png" alt="las-vegas-drone-photos-apartment-marketing-video"  class="author-thumb" id="photo-fade"></a></div>
+
+      <a href="video.html#video-2">
+      <div class="author-info"><br>
+        <h4 id="nutrag" style="font-family: 'Montserrat', sans-serif;">Lyric Apartments </h4><br>
+                   
+           
+      <p>Apartment marketing video for Lyric apartment complex in Las Vegas. Real estate drone photography services for marketing.</p></a></div>
+
+    </div>
+
     
-    <!--WELCOME SECTION START-->
-    <section class="welcome-section"  style="background-color: #1a1421 !important;">
-		<a id="services" class="active"></a>
-      <div class="container">
-        <div class="heading-center"> <span ></span>
-          <h2 class="linear-light">Media Services</h2><br><br>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services.html#real-estate-service">Real Estate <span>Video</span></a></h3>
-                <b class="icon-1"></b>
-                <p>Complete marketing videos for real estate including Luxury Homes, New home construction, Apartment Complexes and condos.</p>
-                <a href="services.html#real-estate-service" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services.html#aerial-photography-service">Aerial <span>Photography</span></a></h3>
-                <b class="icon-2"></b>
-                <p>Quality aerial photographs for marketing content. Real Estate, Roof and Tower inspection, Construction and engineering projects.<br></p>
-                <a href="services.html#aerial-photography-service" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services.html#stock-footage-service"> Stock <span>Footage</span></a></h3>
-                <b class="icon-3"></b>
-                <p>A selection of quality drone shots to use in your project. Including local communities, landscapes, and the famous Las Vegas Strip.</p>
-                <a href="services.html#stock-footage-service" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-
-<!--
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services.html#video-editing-service">Video <span>Editing</span></a></h3>
-                <b class="icon-4"></b>
-                <p>Get your content out faster by outsourcing your video edits! YouTube videos, vlogs, social media content, or whatever else you need.</p>
-                <a href="services.html#video-editing-service" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services.html#web-design-service">Web <span>Design</span></a></h3>
-                <b class="icon-5"></b>
-                <p>Websites for realtors, entrepreneurs, small businesses, e-commerce, landing pages, etc. WordPress themes or built-from-scratch.</p>
-                <a href="services.html#web-design-service" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="welcome-box">
-              <div class="holder">
-                <h3><a href="services.html#mobile-app-service">Mobile App <span>Development</span></a></h3>
-                <a href="services.html#mobile-app-service"><b class="icon-6"></b></a>
-                <p>Experienced mobile developers ready to bring your app design to life! Android and iOS mobile devices. Serious business inquiries only.</p>
-                <a href="services.html#mobile-app-service" class="btn-more">Read More</a> </div>
-            </div>
-          </div>
-          -->
-        </div>
-      </div>
-    </section>
-    <!--WELCOME SECTION END--> 
-    
-    <!--PORTFOLIO SECTION START-->
-
-    <div class="portfolio-section">
-      <div class="container">
-        <div class="heading-center"> <span><p></p></span>
-          <h2 class="linear-title">Recent Projects<p></p></h2><p></p>
-        </div>
-      </div>
-
-      <div class="post-author-box" >
-        <div id="real-estate-service"><a href="video.html#video-1">
-          <img src="images/turnberry-gate-thumb-300x200.png" alt="las-vegas-drone-luxury-high-rise-marketing-video"  class="author-thumb"></a></div>
-
-        <a href="video.html#video-1">
-        <div class="author-info"><br>
-        <h4 id="nutrag" style="font-family: 'Montserrat', sans-serif;">Turnberry Place </h4><br>
-                     
-             
-        <p>Short aerial marketing video and photos of Turnberry Place Luxury high-rises and the Stirling Club, prime residential real estate located on the Las Vegas strip.</p></a></div>
-
-      </div>
-      <div class="post-author-box">
-        <div id="real-estate-service"><a href="video.html#video-2">
-          <img src="images/lyric-thumb-yt-300x200.png" alt="las-vegas-drone-photos-apartment-marketing-video"  class="author-thumb"></a></div>
-
-        <a href="video.html#video-2">
-        <div class="author-info"><br>
-          <h4 id="nutrag" style="font-family: 'Montserrat', sans-serif;">Lyric Apartments </h4><br>
-                     
-             
-        <p>Apartment marketing video for Lyric apartment complex in Las Vegas. Real estate drone photography services for marketing.</p></a></div>
-
-      </div>
-      <div class="post-author-box" >
-        <div id="real-estate-service"><a href="video.html#video-3">
-          <img src="images/vantage-thumb-300x200.png" alt="las-vegas-drone-photos-apartment-marketing-video"  class="author-thumb"></a></div>
-
-        <a href="video.html#video-3">
-        <div class="author-info"><br>
-          <h4 id="nutrag" style="font-family: 'Montserrat', sans-serif;">Vantage Lofts Apartments </h4><br>
-                     
-             
-        <p>Apartment marketing video for Vantage Lofts property in Las Vegas. Drone video for real estate photography in Las Vegas.
-        
-        </p></a></div>
-
-      </div>
-
-  </div>
+</div>
 
 
  <!--FOOTER START-->
@@ -245,10 +283,10 @@ var currentScrollPos = window.pageYOffset;
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="footer-box">
-      <a href="about.html">
-            <h4>About Aces Up Media</h4></a>
+      
+            <h4>About Aces Up Media</h4>
       <a href="about.html">			
-            <p>Aerial photos,drone videos for real estate, and more. FAA Certified drone pilot. Serving the Las Vegas area since 2017.</p></a>
+            <p>Aerial photography, drone videos for real estate, and more. FAA Certified drone pilot. Serving the Las Vegas area since 2017.</p></a>
             <div class="footer-social">
               <ul>
               <li><a href="https://www.instagram.com/acesupmedia" add target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
@@ -323,7 +361,7 @@ var currentScrollPos = window.pageYOffset;
   <section class="footer-section-2">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-5"><span style="font-family: 'Fira Code', sans-serif; font-size: 22px; line-height: 125%;">Keep up with our latest projects!</span> </div>
+        <div class="col-md-3 col-sm-5"><span style="font-family: 'Raleway', sans-serif; font-size: 22px; line-height: 125%;">Keep up with our latest projects!</span> </div>
         <div class="col-md-9 col-sm-7">
            <!-- Email Form Submit begin: sends to google forms jdmenterprises 'emails'-->
           <form onsubmit="confirmInput()" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdUO5jt6582vixCa63Ma3lgxnPzTCuG6bOtuLpnr8H56BH9Ag/formResponse?" target="hidden_iframe" >
@@ -336,7 +374,7 @@ var currentScrollPos = window.pageYOffset;
               </div>
             </div>
           </form>
-          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if (submitted) {}" ></iframe>
           <!-- End form copy-->
         </div>
       </div>
@@ -365,5 +403,13 @@ var currentScrollPos = window.pageYOffset;
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.prettyPhoto.js"></script>
 <script src="js/custom.js"></script>
+<!-- START: Mobile Autoplay Video -->
+<script>
+  var mobilevideo = document.getElementById("myVideo");
+  mobilevideo.setAttribute("playsinline", "");
+  mobilevideo.setAttribute("muted", "");
+  </script>
+  <!-- END: Mobile Autoplay Video -->
 </body>
+</html>
 </html>
