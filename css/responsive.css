@@ -4,7 +4,9 @@
 
 @media (min-width: 1441px) {
 	.footer-section-1 {display: block;}
-	.social-share3 {display: none;}
+	.social-share3 {display: none;}*/
+		
+
 	#nav-id li a { font-size: 100% }
 }
 @media (min-width: 1px) and (max-width: 239px) {
@@ -19,7 +21,7 @@
 
 @media (max-width: 1440px) {
 	.footer-section-1 {display: block;}
-	.social-share3 {display: none;}
+	.social-share3 {display: none;}*/
 	#nav-id li a { font-size: 100% }
 #inner-banner {
 	padding: 160px;
@@ -34,9 +36,10 @@
 	padding: 160px;
 	width: 100%;
 	height: auto;
-	
-	
 }
+
+.logo-row { margin-left: 0px;}	
+
 .blog-section .holder{
 	width:100%;
 	padding:0 15px;
@@ -61,7 +64,7 @@
 }
 #nav-id li a { font-size: 100% }
 .footer-section-1 {display: block;}
-.social-share3 {display: none;}
+.social-share3 {display: none;}*/
 #inner-banner {
 	padding: 160px;
 	width: 100%;
@@ -89,7 +92,7 @@
 /*===========================================================================*/
 @media (max-width: 1280px) {
 	.footer-section-1 {display: block;}
-	.social-share3 {display: none;}
+	.social-share3 {display: none;}*/
 
 #banner .caption {
 	top: 80px;
@@ -140,8 +143,9 @@
 }
 .footer-section-1 {display: none;}
 .social-share3 {display: block;}
+lottie-player {display: none;}
 #banner {
-	padding-top: 100px;
+	padding-top: 200px;
 	padding-bottom: 0px;
 	width: 100%;
 }	
@@ -153,16 +157,20 @@
 .text-col { margin-left: 12px; }
 .text-col .linear-light {  padding-bottom:  0px; }	
 
+.author-info h4{ font-size: 20px !important;}
+
+.author-info p{ font-size: 14px !important;}
 
 strong.logo {
 	width: 100%;
 	text-align: center;
 }
 .navigation-section, .navigation-section .navbar {
-	width: 100%;
+	margin-top: 10px !important ;
+	width: 30%;
 }
 .navbar-toggle {
-	width: 100%;
+	width: 43px;
 	margin-right: 0;
 	background: #222;
 }
@@ -188,7 +196,7 @@ strong.logo {
 #nav-id li:last-child a {
 	padding: 15px 0;
 }
-#banner { padding-top: 100px;}
+#banner { padding-top: 125px;}
 #banner .caption {
 	top: -30px;
 }
@@ -210,13 +218,13 @@ strong.logo {
 	width: 35%;
 }
 	.author-thumb { 
-		width: 35% !important;
+		width: 60% !important;
 	}
 	.linear-light { 
 		padding-top: 20px;
 		font-size: 24px;
 	}
-/*	.post-author-box { margin-left: 10px;}*/
+/*	.post-author-box {position: relative;}*/
 	
 .home-about-section {
 	padding: 40px 0;
@@ -379,8 +387,16 @@ body .padd-top-100.portfolio-section{
 .topbar {
 	display: none;
 }
+lottie-player {display: none;}
 .footer-section-1 {display: none;}
-.social-share3 {display: block;}
+.social-share3 {
+	display: block;
+	font-size: 12px;
+}
+.author-info { margin-left: 5%;}
+.author-info h4{ font-size: 20px !important;}
+
+.author-info p{ font-size: 14px !important;}
 .linear-title {
 	font-size: 24px;	
 }
@@ -416,12 +432,14 @@ body .padd-top-100.portfolio-section{
 	margin: 0 0 20px 0;
 }
 	
-	.author-thumb { width: 50% !important;}
+	.author-thumb { width: 65% !important;}
 	.linear-light { font-size: 16px;}
 	
 .post-author-box .author-info{
+	font-size: 15px;
 	float:left;
 	width:100%;
+
 }
 #comments .text h6{
 	margin:0 0 10px 0;
@@ -549,17 +567,20 @@ strong.logo {
 	width: 100%;
 	text-align: center;
 }
-.navigation-section {
-	width: 100%;
-}
-.navigation-section .navbar {
-	width: 100%;
+.logo {width: 100% !important;}
+
+.navigation-section, .navigation-section .navbar {
+	margin-top: 0px !important ;
+	margin-right: 0px !important;
+	width: 86%;
 }
 .navbar-toggle {
+	width: 43px;
 	margin-right: 0;
-	width: 100%;
 	background: #222;
 }
+
+
 .navbar-toggle .icon-bar {
 	margin: 0 auto 0;
 }
@@ -578,7 +599,7 @@ strong.logo {
 	overflow: inherit;
 }
 #banner {
-	padding-top: 100px;
+	padding-top: 125px;
 	padding-bottom: 0px;
 	width: 100%;
 }
@@ -749,7 +770,7 @@ strong.logo {
 @media (min-width: 768px) and (max-width: 992px) {
 
 .footer-section-1 {display: block;}
-.social-share3 {display: none;}
+.social-share3 {display: none;}*/
 .contact-box{
 	padding:120px 10px 54px 10px;
 }
@@ -908,7 +929,7 @@ strong.logo {
 /*===========================================================================*/
 @media (min-width: 993px) and (max-width: 1199px) {
 .footer-section-1 {display: block;}
-.social-share3 {display: none;}
+.social-share3 {display: none;}*/
 #nav-id li ul {
 	top: 37px;
 }
